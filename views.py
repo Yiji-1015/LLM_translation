@@ -508,13 +508,26 @@ def render_work_tab(supabase):
         f"표시 중 {len(filtered)}행 / 번역됨 {len(translated_df)}행 / 전체 {len(work_df)}행"
     )
     view = st.radio("보기 방식", ["카드뷰", "테이블뷰"], horizontal=True)
+
     if view == "카드뷰":
         if filtered.empty:
             st.info("현재 필터에 맞는 row가 없습니다.")
         else:
-            render_cards(supabase, filtered, run_id)
+            if "work_visible_count" not in st.session_state:
+                st.session_state["work_visible_count"] = 10
+
+            visible_count = st.session_state["work_visible_count"]
+            visible_df = filtered.head(visible_count)
+
+            render_cards(supabase, visible_df, run_id)
+
+            remaining = len(filtered) - visible_count
+            if remaining > 0:
+                if st.button(f"+{min(10, remaining)} 더 보기", key="work_load_more"):
+                    st.session_state["work_visible_count"] += 10
+                    st.rerun()
+
     else:
-        # 테이블뷰는 reindex로 컬럼 순서를 강제.
         st.dataframe(filtered.reindex(columns=TABLE_VIEW_COLUMNS), width="stretch", hide_index=True)
 
     st.download_button(
@@ -677,8 +690,20 @@ def render_label_review_tab(supabase):
         if filtered.empty:
             st.info("현재 필터에 맞는 오류 리뷰가 없습니다.")
         else:
-            for _, row in filtered.iterrows():
+            if "review_visible_count" not in st.session_state:
+                st.session_state["review_visible_count"] = 10
+
+            visible_count = min(st.session_state["review_visible_count"], len(filtered))
+            visible_df = filtered.head(visible_count)
+
+            for _, row in visible_df.iterrows():
                 render_review_card(supabase, row)
+
+            remaining = len(filtered) - visible_count
+            if remaining > 0:
+                if st.button(f"+{min(10, remaining)} 더 보기", key="review_load_more"):
+                    st.session_state["review_visible_count"] += 10
+                    st.rerun()
 
     st.download_button(
         "필터된 오류 리뷰 CSV 다운로드",
