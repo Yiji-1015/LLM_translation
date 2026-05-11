@@ -66,6 +66,54 @@ ERROR_TYPES = [
     "Other",
 ]
 
+LABEL_GUIDE = [
+    {
+        "error_type": "No Error",
+        "meaning": "문제가 없거나, 현재 기준으로는 오류로 보기 어려운 경우",
+        "example": "LLM 번역이 사람 번역과 의미/톤/형식 면에서 충분히 동등함",
+    },
+    {
+        "error_type": "Terminology",
+        "meaning": "용어집, 고유명사, 반복 용어의 일관성 문제가 있는 경우",
+        "example": "Engram을 엔그램/엔그람으로 혼용하거나, 기존 게임 용어와 다르게 번역",
+    },
+    {
+        "error_type": "Accuracy",
+        "meaning": "원문의 의미를 누락, 왜곡, 추가하거나 반대로 해석한 경우",
+        "example": "random reward를 확정 보상처럼 번역하거나 조건/수량을 빠뜨림",
+    },
+    {
+        "error_type": "Style",
+        "meaning": "문체, 톤, 장르감, UI 문구로서의 자연스러움이 어긋난 경우",
+        "example": "짧은 UI 문구가 지나치게 문어체이거나 게임 내 톤과 맞지 않음",
+    },
+    {
+        "error_type": "Persona/Pragmatics",
+        "meaning": "화자 성격, 관계, 존비어, 발화 의도나 함의가 어긋난 경우",
+        "example": "캐릭터가 거칠게 말해야 하는 장면에서 과하게 공손한 표현 사용",
+    },
+    {
+        "error_type": "Locale",
+        "meaning": "한국어권 관습, 문화적 표현, 단위/날짜/표기 관례와 맞지 않는 경우",
+        "example": "한국어 UI에서 어색한 날짜 표기나 문화권에 맞지 않는 관용 표현",
+    },
+    {
+        "error_type": "Design/Markup",
+        "meaning": "플레이스홀더, 변수, 태그, 줄바꿈, UI 제약을 훼손한 경우",
+        "example": "{player}, <color>, NL, 숫자, 아이콘 태그를 누락하거나 변경",
+    },
+    {
+        "error_type": "Linguistic",
+        "meaning": "문법, 맞춤법, 조사, 어순, 중복 표현 등 언어 품질 문제가 있는 경우",
+        "example": "조사 오류, 비문, 부자연스러운 직역, 의미는 맞지만 한국어로 어색한 문장",
+    },
+    {
+        "error_type": "Other",
+        "meaning": "위 기준으로 분류하기 어렵거나 여러 문제가 섞여 별도 메모가 필요한 경우",
+        "example": "복합 오류, 데이터 자체 문제, 분류 기준을 논의해야 하는 사례",
+    },
+]
+
 MODEL_OPTIONS = [
     "gpt-4o-mini",
     "gpt-4o",
@@ -346,6 +394,29 @@ def load_translations(supabase, run_id: str) -> pd.DataFrame:
 def load_annotations(supabase, run_id: str) -> pd.DataFrame:
     rows = supabase.table("annotations").select("*").eq("run_id", run_id).execute().data
     return pd.DataFrame(rows)
+
+
+def build_review_frame(supabase, dataset_id: str, rows_df: pd.DataFrame, runs: list) -> pd.DataFrame:
+    frames = []
+    row_base = rows_df.rename(columns={"row_id": "id"}).copy()
+    for run in runs:
+        run_id = run["run_id"]
+        annotations_df = load_annotations(supabase, run_id)
+        if annotations_df.empty:
+            continue
+        translations_df = load_translations(supabase, run_id)
+        run_df = build_working_frame(row_base.rename(columns={"id": "row_id"}), translations_df, annotations_df, run)
+        run_df = run_df[run_df["error_type"].fillna("").astype(str).str.strip() != ""].copy()
+        run_df["run_id"] = run_id
+        run_df["run_created_at"] = run.get("created_at", "")
+        frames.append(run_df)
+
+    if not frames:
+        return pd.DataFrame(columns=TABLE_VIEW_COLUMNS + ["run_id", "run_created_at"])
+
+    review_df = pd.concat(frames, ignore_index=True)
+    review_df = review_df[review_df["error_type"] != "No Error"].copy()
+    return review_df
 
 
 def build_working_frame(rows_df: pd.DataFrame, translations_df: pd.DataFrame, annotations_df: pd.DataFrame, run):
@@ -830,6 +901,135 @@ def render_work_tab(supabase):
         )
 
 
+def render_review_card(row: pd.Series):
+    with st.container(border=True):
+        top_cols = st.columns([1, 1, 1])
+        top_cols[0].caption(row.get("error_type", ""))
+        top_cols[1].caption(f"리뷰어: {row.get('reviewer', '')}")
+        top_cols[2].caption(f"run: {str(row.get('run_created_at', ''))[:19]}")
+
+        st.markdown("**원문**")
+        st.write(row.get("source", ""))
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown("**사람 번역**")
+            st.write(row.get("human_translation", ""))
+        with col2:
+            st.markdown("**LLM 번역**")
+            st.write(row.get("llm_translation", ""))
+
+        if str(row.get("memo", "")).strip():
+            st.markdown("**메모**")
+            st.write(row.get("memo", ""))
+
+
+def render_label_review_tab(supabase):
+    st.subheader("라벨 기준")
+    guide_df = pd.DataFrame(LABEL_GUIDE)
+    st.dataframe(
+        guide_df.rename(columns={"error_type": "오류 유형", "meaning": "의미", "example": "예시"}),
+        width="stretch",
+        hide_index=True,
+    )
+
+    st.divider()
+    st.subheader("라벨링된 오류 모아보기")
+    datasets = list_datasets(supabase)
+    if not datasets:
+        st.info("아직 데이터셋이 없습니다.")
+        return
+
+    dataset_labels = {
+        f"{d['dataset_name']} / {d['uploaded_at'][:19]}": d["dataset_id"]
+        for d in datasets
+    }
+    selected_dataset_label = st.selectbox("데이터셋", list(dataset_labels.keys()), key="review_dataset")
+    dataset_id = dataset_labels[selected_dataset_label]
+    rows_df = load_rows(supabase, dataset_id)
+    runs = load_runs(supabase, dataset_id)
+    if rows_df.empty or not runs:
+        st.info("이 데이터셋에는 아직 리뷰할 번역 run이 없습니다.")
+        return
+
+    review_df = build_review_frame(supabase, dataset_id, rows_df, runs)
+    if review_df.empty:
+        st.info("아직 No Error 외의 라벨링된 오류가 없습니다.")
+        return
+
+    count_df = (
+        review_df.groupby("error_type")
+        .size()
+        .reset_index(name="count")
+        .sort_values(["count", "error_type"], ascending=[False, True])
+    )
+    st.dataframe(
+        count_df.rename(columns={"error_type": "오류 유형", "count": "건수"}),
+        width="stretch",
+        hide_index=True,
+    )
+
+    filter_cols = st.columns([1, 1, 2])
+    selected_error = filter_cols[0].selectbox(
+        "오류 유형",
+        ["All"] + [error for error in ERROR_TYPES if error != "No Error"],
+        key="review_error_filter",
+    )
+    run_options = {
+        "All": None,
+        **{
+            f"{run.get('created_at', '')[:19]} / {run.get('model', '')} / {run['run_id'][:8]}": run["run_id"]
+            for run in runs
+        },
+    }
+    selected_run_label = filter_cols[1].selectbox("번역 run", list(run_options.keys()), key="review_run_filter")
+    review_query = filter_cols[2].text_input("원문 / 번역 / 메모 검색", key="review_query")
+
+    filtered = review_df.copy()
+    if selected_error != "All":
+        filtered = filtered[filtered["error_type"] == selected_error]
+    selected_run_id = run_options[selected_run_label]
+    if selected_run_id:
+        filtered = filtered[filtered["run_id"] == selected_run_id]
+    if review_query.strip():
+        q = review_query.strip().casefold()
+        mask = pd.Series(False, index=filtered.index)
+        for col in ["source", "human_translation", "llm_translation", "memo", "reviewer"]:
+            mask = mask | filtered[col].fillna("").astype(str).str.casefold().str.contains(q, regex=False)
+        filtered = filtered[mask]
+
+    st.caption(f"{len(filtered)}건 표시 / 전체 오류 라벨 {len(review_df)}건")
+    review_view = st.radio("보기 방식", ["테이블뷰", "카드뷰"], horizontal=True, key="review_view")
+    review_columns = [
+        "error_type",
+        "memo",
+        "reviewer",
+        "source",
+        "human_translation",
+        "llm_translation",
+        "id",
+        "tag",
+        "run_created_at",
+        "model",
+        "prompt_version_name",
+    ]
+    if review_view == "테이블뷰":
+        st.dataframe(filtered.reindex(columns=review_columns), width="stretch", hide_index=True)
+    else:
+        if filtered.empty:
+            st.info("현재 필터에 맞는 오류 리뷰가 없습니다.")
+        else:
+            for _, row in filtered.iterrows():
+                render_review_card(row)
+
+    st.download_button(
+        "필터된 오류 리뷰 CSV 다운로드",
+        data=csv_download_bytes(filtered),
+        file_name=f"{selected_dataset_label.split(' / ')[0]}_error_reviews.csv",
+        mime="text/csv",
+        disabled=filtered.empty,
+    )
+
+
 def main():
     st.title(APP_TITLE)
     st.caption("LLM 번역 실패를 관찰하고 MQM 기반으로 함께 라벨링하기 위한 연구용 MVP")
@@ -838,13 +1038,15 @@ def main():
     ensure_default_prompt(supabase)
     sidebar_openai_key()
 
-    upload_tab, work_tab, prompt_tab = st.tabs(["업로드", "작업", "프롬프트"])
+    upload_tab, work_tab, prompt_tab, review_tab = st.tabs(["업로드", "작업", "프롬프트", "라벨 기준"])
     with upload_tab:
         render_upload_tab(supabase)
     with work_tab:
         render_work_tab(supabase)
     with prompt_tab:
         render_prompt_tab(supabase)
+    with review_tab:
+        render_label_review_tab(supabase)
 
 
 if __name__ == "__main__":
