@@ -1,0 +1,301 @@
+﻿id,tag,source,human_translation,context,speaker,listener,notes
+0,name,Legendary Engram,전설 엔그램,DestinyInventoryItemDefinition,,,item | short
+1,description,An engram with complex markers. Contains a random Legendary weapon or armor piece.,복잡한 표시가 있는 엔그램입니다. 무작위 전설 무기 또는 방어구가 들어 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+2,name,Spacewalk Cloak,우주 유영 망토,DestinyInventoryItemDefinition,,,item | short
+3,name,Tangled Web Helm,뒤엉킨 거미줄 투구,DestinyInventoryItemDefinition,,,item | short
+4,name,Raven Shard,까마귀 파편,DestinyInventoryItemDefinition,,,item | short
+5,name,Traveler Donut Holes,여행자 도넛 홀,DestinyInventoryItemDefinition,,,item | short
+6,description,Deliver these unknowable alabaster spheres to Ikora Rey in the Tower Bazaar.,이 정체불명의 하얀 구체를 탑 시장에 있는 아이코라 레이에게 전해 주세요.,DestinyInventoryItemDefinition,,,item | medium
+7,name,Classical-42,고전음악-42,DestinyInventoryItemDefinition,,,item | short
+8,name,Countess SA/2,백작 부인 SA/2,DestinyInventoryItemDefinition,,,item | short
+9,name,Penumbral Cloak,어둠의 그림자 망토,DestinyInventoryItemDefinition,,,item | short
+10,name,Acceleron (Spoil),가속체(오염),DestinyInventoryItemDefinition,,,item | short
+11,description,Gathered from the Spoil patrol in the Augur's Bethel.,전조의 성소의 오염 정찰에서 획득할 수 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+12,name,IKELOS_SMG_v1.0.3,이켈로스_SMG_v1.0.3,DestinyInventoryItemDefinition,,,item | short
+13,name,Stygian Steed,칠흑의 군마,DestinyInventoryItemDefinition,,,item | short
+14,name,The Mourner,추모객,DestinyInventoryItemDefinition,,,item | short
+15,name,Sugary Staple,달콤한 간식,DestinyInventoryItemDefinition,,,item | short
+16,name,Distorted Arms Week Engram,왜곡된 무기 주간 엔그램,DestinyInventoryItemDefinition,,,item | short
+17,description,"Decrypts into a random event weapon, with a chance of rewarding a Holofoil weapon.",무작위 이벤트 무기로 해독됩니다. 홀로그램 장식 무기를 보상으로 획득할 확률이 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+18,name,Photosuede Gloves,광학스웨이드 장갑,DestinyInventoryItemDefinition,,,item | short
+19,name,Resonant Fury Gauntlets,공명하는 분노 건틀릿,DestinyInventoryItemDefinition,,,item | short
+20,name,Solstice Gloves (Scorched),불에 그슬린 지점의 장갑,DestinyInventoryItemDefinition,,,item | short
+21,name,Praxic Relic,실천의 성물,DestinyInventoryItemDefinition,,,item | short
+22,name,Found Verdict,확정 판결,DestinyInventoryItemDefinition,,,item | short
+23,name,Tangled Web Greaves,뒤엉킨 거미줄 각반,DestinyInventoryItemDefinition,,,item | short
+24,name,Pixeltouch,픽셀터치,DestinyInventoryItemDefinition,,,item | short
+25,description,Equip this ornament with Speaker's Sight to activate a unique visual effect.,대변자의 시각과 함께 장착하여 특별한 시각 효과를 활성화하는 장식입니다.,DestinyInventoryItemDefinition,,,item | medium
+26,name,Gladius Gloves,로마 단검 장갑,DestinyInventoryItemDefinition,,,item | short
+27,description,"Equip this ornament on any eligible Legendary armor item to change its appearance. Once you get a universal ornament, it's unlocked for all characters of the relevant class on your account.",적용 가능한 전설 방어구 아이템에 장착하여 외양을 바꾸는 장식입니다. 획득한 범용 장식은 계정 내 해당 직업의 모든 캐릭터에서 사용할 수 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+28,name,Malwear Gloves,멀웨어 장갑,DestinyInventoryItemDefinition,,,item | short
+29,name,Blackletter Gloves,흑문자 장갑,DestinyInventoryItemDefinition,,,item | short
+30,name,Prophet Snow,눈의 선지자,DestinyInventoryItemDefinition,,,item | short
+31,name,Illicit Sentry Greaves,불법 보초병 각반,DestinyInventoryItemDefinition,,,item | short
+32,name,Lawless Frontier Gear,무법지대 장비,DestinyInventoryItemDefinition,,,item | short
+33,description,An engram with untapped potential. Contains a random tiered weapon or armor piece.,손대지 않은 잠재력이 있는 엔그램입니다. 무작위 단계 무기 또는 방어구가 들어 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+34,name,Bright Engram Bonus,광휘 엔그램 보너스,DestinyInventoryItemDefinition,,,item | short
+35,description,"Unlocks an additional Bright Engram reward for every 500,000 XP earned through gameplay. This bonus remains active even after the maximum rank is achieved.","게임 플레이로 500,000 경험치를 획득할 때마다 광휘 엔그램 보상을 추가로 잠금 해제합니다. 이 보너스는 최고 등급을 획득한 후에도 유지됩니다.",DestinyInventoryItemDefinition,,,item | medium
+36,name,"Nail, Meet Hammer",못과 망치의 만남,DestinyInventoryItemDefinition,,,item | short
+37,description,"This weapon is more effective against combatant shields. Destroying a shield with this weapon grants bonus Special ammo progress if it uses Primary or Heavy ammo, or Heavy ammo progress if it uses Special ammo.","이 무기는 전투원의 방어막에 더 효과적입니다. 이 무기로 방어막을 파괴하면 일반 탄약 또는 중화기 탄약을 사용할 경우 특수 탄약 진척도가 증가하며, 특수 화기 탄약을 사용할 경우 중화기 탄약 진척도가 증가합니다.",DestinyInventoryItemDefinition,,,item | long
+38,name,Warden's Law,감시관의 법률,DestinyInventoryItemDefinition,,,item | short
+39,name,New Demotic Bond,새로운 민중 완장,DestinyInventoryItemDefinition,,,item | short
+40,name,Purple Beam Effects,보라색 빛줄기 효과,DestinyInventoryItemDefinition,,,item | short
+41,description,"Modifications for your ship's transmat systems, so you'll always arrive in style.",우주선의 물질 전송 시스템을 개량해 개성 넘치는 모습으로 도착할 수 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+42,name,Green Beam Effects,초록색 빛줄기 효과,DestinyInventoryItemDefinition,,,item | short
+43,name,Gold Beam Effects,금색 빛줄기 효과,DestinyInventoryItemDefinition,,,item | short
+44,name,Silver Beam Effects,은색 빛줄기 효과,DestinyInventoryItemDefinition,,,item | short
+45,name,Purple Spotlight Effects,보라색 조명 효과,DestinyInventoryItemDefinition,,,item | short
+46,name,Green Spotlight Effects,초록색 조명 효과,DestinyInventoryItemDefinition,,,item | short
+47,name,Yellow Spotlight Effects,노란색 조명 효과,DestinyInventoryItemDefinition,,,item | short
+48,name,Silver Spotlight Effects,은색 조명 효과,DestinyInventoryItemDefinition,,,item | short
+49,name,Yellow Class Sigil,노란색 직업 인장,DestinyInventoryItemDefinition,,,item | short
+50,name,Pink Class Sigil,분홍색 직업 인장,DestinyInventoryItemDefinition,,,item | short
+51,name,Shadow's Gloves,그림자 부대 장갑,DestinyInventoryItemDefinition,,,item | short
+52,name,Last Foray,마지막 습격,DestinyInventoryItemDefinition,,,item | short
+53,name,Annealed Shaper Robes,열처리 공작가 로브,DestinyInventoryItemDefinition,,,item | short
+54,name,Phalanx Blast,방패병 폭격,DestinyInventoryItemDefinition,,,item | short
+55,description,[Finisher] : Finish critically wounded combatants.,[필살기] : 치명상을 입은 전투원을 처치합니다.,DestinyInventoryItemDefinition,,,item | medium
+56,name,Warp and Weft,씨실과 날실,DestinyInventoryItemDefinition,,,item | short
+57,name,The Long Goodbye,긴 작별,DestinyInventoryItemDefinition,,,item | short
+58,name,Carbon Arrow Shaft,탄소 화살대,DestinyInventoryItemDefinition,,,item | short
+59,description,Light and stable shaft material. • Increases stability,가볍고 안정적인 화살대 재료입니다. • 안정성을 증가시킵니다,DestinyInventoryItemDefinition,,,item | medium
+60,name,Sovereign Plate,군주의 판금 흉갑,DestinyInventoryItemDefinition,,,item | short
+61,name,Out of Bounds,한외,DestinyInventoryItemDefinition,,,item | short
+62,name,A Spark of Hope,희망의 불꽃,DestinyInventoryItemDefinition,,,item | short
+63,description,Let Zavala know you've reached Guardian Rank 2.,수호자 등급 2 달성을 자발라에게 알리세요.,DestinyInventoryItemDefinition,,,item | short
+64,name,Ballistic Tuning,탄도 조정,DestinyInventoryItemDefinition,,,item | short
+65,description,Power diverted from shield. • Greatly increases range • Decreases shield duration,방패에서 위력이 이전됩니다. • 사거리를 크게 증가시킵니다 • 방어막 지속 시간이 감소합니다,DestinyInventoryItemDefinition,,,item | medium
+66,name,Ketchkiller's Armor Set,범선살해자 방어구 세트,DestinyInventoryItemDefinition,,,item | short
+67,description,Acquire a set of Armor Rewards for your currently active class from the corresponding Season Pass. Set price is reduced for each individual item already acquired.,"현재 활성화된 직업에 맞는 방어구 보상 세트를 해당 시즌 패스에서 획득하세요. 이미 획득한 아이템이 있을 경우, 세트 가격이 그만큼 할인됩니다.",DestinyInventoryItemDefinition,,,item | medium
+68,name,Convalescence: Underbrush,정양: 덤불숲,DestinyInventoryItemDefinition,,,item | short
+69,description,Equip the new Flickering Blessing. Flickering Blessings are a type of Traveler's Blessings. These are powerful combat mods that are only active while in the Pale Heart. To equip: Open the Traveler's Blessings menu on the Pale Heart map.,"새로운 깜박이는 축복을 장착하세요. 깜박이는 축복은 여행자의 축복의 한 종류입니다. 강력한 전투 개조 부품으로, 창백한 심장에서만 활성화됩니다. 장착하기: 창백한 심장 지도에 있는 여행자의 축복 메뉴에서 장착하세요.",DestinyInventoryItemDefinition,,,item | long
+70,name,Legacy PR-55 Frame,유산 PR-55 프레임,DestinyInventoryItemDefinition,,,item | short
+71,description,"Customized frame with dramatically increased accuracy, stability, and targeting while hip firing.","비조준 사격 시 정확도와 안정성, 조준 보정이 대폭 증가하는 맞춤 설정 프레임입니다.",DestinyInventoryItemDefinition,,,item | medium
+72,name,Riding the Storm,폭풍 타기,DestinyInventoryItemDefinition,,,item | short
+73,description,The Vanguard will be eager to hear of your newfound power. Speak to Ikora Rey in the Tower.,선봉대가 당신의 새로운 힘에 관해 듣고 싶어 할 겁니다. 탑에서 아이코라 레이와 대화하세요.,DestinyInventoryItemDefinition,,,item | medium
+74,name,Haliaetus,흰꼬리수리,DestinyInventoryItemDefinition,,,item | short
+75,name,Crota's Bane Projection,크로타의 파멸 투영,DestinyInventoryItemDefinition,,,item | short
+76,description,Equip this item to change your Ghost's projection.,이 아이템을 장착하면 고스트의 투영이 변경됩니다.,DestinyInventoryItemDefinition,,,item | medium
+77,name,Aeronautics of China Projection,중국항공 투영,DestinyInventoryItemDefinition,,,item | short
+78,name,Moonbound Projection,달을 향한 투영,DestinyInventoryItemDefinition,,,item | short
+79,name,Mindjack Projection,정신지레 투영,DestinyInventoryItemDefinition,,,item | short
+80,name,Spacewalk Mark,우주 유영 표식,DestinyInventoryItemDefinition,,,item | short
+81,name,Substitutional Alloy Armor Set,치환 합금 방어구 세트,DestinyInventoryItemDefinition,,,item | short
+82,name,Solstice Mark (Rekindled),지점의 표식(재생),DestinyInventoryItemDefinition,,,item | short
+83,name,Carapace Bond,갑각 완장,DestinyInventoryItemDefinition,,,item | short
+84,name,From the Front,최전선에서,DestinyInventoryItemDefinition,,,item | short
+85,name,Solstice Cloak (Majestic),지점의 망토(장엄),DestinyInventoryItemDefinition,,,item | short
+86,name,Increases initial Ice Breaker drop rate.,얼음 파쇄기 초기 획득률이 증가합니다.,DestinyInventoryItemDefinition,,,item | short
+87,name,Illicit Reaper Gloves,불법 사신 장갑,DestinyInventoryItemDefinition,,,item | short
+88,name,Disaster Corps Plate,재난 대응단 판금 흉갑,DestinyInventoryItemDefinition,,,item | short
+89,name,Distorted Engram,왜곡된 엔그램,DestinyInventoryItemDefinition,,,item | short
+90,name,Eerie Exotic Head Engram,섬뜩한 경이 머리 엔그램,DestinyInventoryItemDefinition,,,item | short
+91,description,An engram humming with uncanny energy. Contains Exotic head armor.,묘한 에너지가 가득 찬 엔그램입니다. 경이 머리 방어구가 들어 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+92,name,Snowplume Plate,설광 깃털 판금 흉갑,DestinyInventoryItemDefinition,,,item | short
+93,name,Shrewd Survivor Cowl,노련한 생존자 두건,DestinyInventoryItemDefinition,,,item | short
+94,name,Glory of Artemis Vest,아르테미스의 영광 조끼,DestinyInventoryItemDefinition,,,item | short
+95,name,Flowing Boots,흐르는 장화,DestinyInventoryItemDefinition,,,item | short
+96,name,Floating Boots,떠도는 장화,DestinyInventoryItemDefinition,,,item | short
+97,name,Forgiveness (Adept),용서(숙련자),DestinyInventoryItemDefinition,,,item | short
+98,name,The Last Hurrah,최후의 외침,DestinyInventoryItemDefinition,,,item | short
+99,description,The Call to Arms event has ended and Celebration Week has begun. Speak with Devrim Kay at the Tower to learn more about Celebration Week.,"소집령 이벤트가 종료되고, 축하 주간이 시작됩니다. 탑에 있는 데브림 케이와 대화하여 자세한 내용을 확인하세요.",DestinyInventoryItemDefinition,,,item | medium
+100,name,Gauntlets of Rull,룰의 건틀릿,DestinyInventoryItemDefinition,,,item | short
+101,name,Gauntlets of the Emperor's Champion,황제의 용사 건틀릿,DestinyInventoryItemDefinition,,,item | short
+102,name,Solstice Robes (Resplendent),지점의 로브(유광),DestinyInventoryItemDefinition,,,item | short
+103,name,Tangled Up,뒤엉킨 타래,DestinyInventoryItemDefinition,,,item | short
+104,description,"This mod's perks are only active in the ""Root of Nightmares"" raid. Multiple copies of this mod will not improve its effects.","이 개조 부품의 특성은 ""악몽의 뿌리"" 레이드에서만 활성화됩니다. 이 개조 부품은 여러 개 장착해도 효과가 중첩되지 않습니다.",DestinyInventoryItemDefinition,,,item | medium
+105,name,Noble Constant Mark,고귀한 상수 표식,DestinyInventoryItemDefinition,,,item | short
+106,name,Mythos Hack 4.1,신화 꼬아 보기 4.1,DestinyInventoryItemDefinition,,,item | short
+107,name,Shotput Through The Heart,심장 관통 투포환,DestinyInventoryItemDefinition,,,item | short
+108,name,Iron Forerunner Cloak,강철 선구자 망토,DestinyInventoryItemDefinition,,,item | short
+109,name,Gulltoppr-I,굴톱프-I,DestinyInventoryItemDefinition,,,item | short
+110,name,Aggressive Frame,공격적 프레임,DestinyInventoryItemDefinition,,,item | short
+111,description,"High damage, high recoil. Optimized for long-distance shooting.","공격력이 높지만, 반동도 강합니다. 장거리 사격에 최적화되어 있습니다.",DestinyInventoryItemDefinition,,,item | medium
+112,name,Be Thy Guide,그대의 길잡이가 되리,DestinyInventoryItemDefinition,,,item | short
+113,name,Attune to Collective Psyche Mark,집단 심리 표식 조율,DestinyInventoryItemDefinition,,,item | short
+114,description,"Attuning to a piece of gear will increase the drop chance of that item for each encounter in ""The Desert Perpetual."" You may only attune to one piece of gear at a time.","장비를 하나 조율하면, ""영겁의 사막"" 각 전투에서 해당 아이템의 획득 확률이 증가합니다. 한 번에 하나의 장비만 조율할 수 있습니다.",DestinyInventoryItemDefinition,,,item | medium
+115,name,Gensym Knight Boots,젠심 기사 장화,DestinyInventoryItemDefinition,,,item | short
+116,name,Claw Unrivaled Greaves,독보적인 발톱 각반,DestinyInventoryItemDefinition,,,item | short
+117,name,Candescent Strides (Unkindled),백열 발걸음 (미점화),DestinyInventoryItemDefinition,,,item | short
+118,name,Winterhart Plate,방한 판금 흉갑,DestinyInventoryItemDefinition,,,item | short
+119,name,The Beacon,신호기,DestinyInventoryItemDefinition,,,item | short
+120,name,Masterwork Weapon,걸작 무기,DestinyInventoryItemDefinition,,,item | short
+121,description,"This weapon generates Orbs on multikills, and displays the number of opponents defeated in the Crucible by using it.","다중 처치 시에 구체를 생성하고, 이 무기로 쓰러뜨린 시련의 장 상대의 수를 표시합니다.",DestinyInventoryItemDefinition,,,item | medium
+122,name,Eager Beaver,일벌레,DestinyInventoryItemDefinition,,,item | short
+123,name,Convalescence: Rootbound,정양: 뿌리,DestinyInventoryItemDefinition,,,item | short
+124,description,Investigate the new growth in the Arbor of Light.,빛의 정원 속에서 새로운 성장을 조사하세요.,DestinyInventoryItemDefinition,,,item | short
+125,name,Upgrade Masterwork,걸작 업그레이드,DestinyInventoryItemDefinition,,,item | short
+126,description,Defeat Crucible enemies with precision damage using MIDA Multi-Tool to unlock this upgrade.,이 업그레이드를 잠금 해제하려면 MIDA 다목적 도구의 정밀 피해로 시련의 장 적을 처치하십시오.,DestinyInventoryItemDefinition,,,item | medium
+127,name,Cry Defiance,저항의 외침,DestinyInventoryItemDefinition,,,item | short
+128,name,Sand in the Eyes,모래 뿌리기,DestinyInventoryItemDefinition,,,item | short
+129,name,Prophet of Doom,파멸의 예언자,DestinyInventoryItemDefinition,,,item | short
+130,name,Random Mod,무작위 개조 부품,DestinyInventoryItemDefinition,,,item | short
+131,description,A mod with arbitrarily generated upgrades.,임의로 업그레이드가 적용된 개조 부품입니다.,DestinyInventoryItemDefinition,,,item | short
+132,name,Phaseglass Refraction,위상 유리 굴절체,DestinyInventoryItemDefinition,,,item | short
+133,name,Multicell Mark,멀티셀 표식,DestinyInventoryItemDefinition,,,item | short
+134,name,Essence of Dawning,여명의 정수,DestinyInventoryItemDefinition,,,item | short
+135,description,Essence of Dawning can be used to bake gifts in Eva's Holiday Oven. Find essence by engaging in activities and completing challenges all over the system.,여명의 정수는 에바의 명절 오븐에서 선물을 굽는 데 사용할 수 있습니다. 행성계 전역에서 활동과 도전을 완료하여 정수를 획득하세요.,DestinyInventoryItemDefinition,,,item | medium
+136,name,Birthday Blade,생일 칼날,DestinyInventoryItemDefinition,,,item | short
+137,name,Magnum Opus,필생의 역작,DestinyInventoryItemDefinition,,,item | short
+138,description,Unlock the way forward with the Strange Key and follow the path it opens to claim the mysterious object.,"이상한 열쇠로 앞으로 나아가는 길을 잠금 해제하고, 열린 길을 따라가 수수께끼의 물체를 획득하세요.",DestinyInventoryItemDefinition,,,item | medium
+139,description,Return to Eternity now that you've risen to the impossible horse's challenges.,"불가사의한 말의 도전에 응할 준비가 되었으니, 이제 영원으로 돌아가세요.",DestinyInventoryItemDefinition,,,item | medium
+140,description,Obtain and complete bounties from Starhorse in Eternity. Bonus progress granted for higher-difficulty Starhorse bounties.,영원에 있는 별의 말에게 현상금을 획득하고 완료하세요. 난이도가 높은 별의 말 현상금은 진척도가 추가로 올라갑니다.,DestinyInventoryItemDefinition,,,item | medium
+141,description,Collect Strange Coins and bring them back to Starhorse in Eternity.,이상한 동전을 모아 영원에 있는 별의 말에게 가져가세요.,DestinyInventoryItemDefinition,,,item | medium
+142,description,Bring the Anomalous Object to Banshee in the Tower to see if he can repair it.,이상한 물체를 탑에 있는 밴시에게 가져가 수리할 수 있는지 알아보세요.,DestinyInventoryItemDefinition,,,item | medium
+143,name,Attune to Hung Jury SR4,불일치 배심 SR4 조율,DestinyInventoryItemDefinition,,,item | short
+144,description,Attuning to a weapon will increase the drop chance of that weapon when participating in Onslaught. Only one weapon may be attuned to at a time.,무기를 조율하면 맹공격에 참여할 때 해당 무기를 획득할 확률이 증가합니다. 한 번에 하나의 무기만 조율할 수 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+145,name,Hand Cannon Dexterity,핸드 캐논 사용 속도,DestinyInventoryItemDefinition,,,item | short
+146,description,This perk has been deprecated and no longer functions.,이 특성은 폐기되어 더는 작동하지 않습니다.,DestinyInventoryItemDefinition,,,item | medium
+147,name,Solstice Gloves (Majestic),지점의 장갑(장엄),DestinyInventoryItemDefinition,,,item | short
+148,name,Solstice Hood (Rekindled),지점의 두건(재생),DestinyInventoryItemDefinition,,,item | short
+149,description,The flame of reawakening ignites in your mind.,되살아나는 불꽃이 마음속에서 타오른다.,DestinyInventoryItemDefinition,,,item | short
+150,name,Ornamental Container,장식함,DestinyInventoryItemDefinition,,,item | short
+151,description,Ikora Rey has information on how to harness the Light in other ways. Speak with her to begin your journey towards unlocking additional subclasses.,아이코라 레이가 빛을 다른 방식으로 이용하는 방법을 알고 있습니다. 그녀와 대화하여 추가 하위직업을 잠금 해제하는 여정을 시작하세요.,DestinyInventoryItemDefinition,,,item | medium
+152,name,Mindbreaker Boots,정신파괴자 장화,DestinyInventoryItemDefinition,,,item | short
+153,name,Empty Vessel,빈 그릇,DestinyInventoryItemDefinition,,,item | short
+154,name,Arach's Chosen Boots,아라크 용사의 장화,DestinyInventoryItemDefinition,,,item | short
+155,description,Earn Renown with full Dead Orbit Anti-Extinction armor equipped and while pledged to Dead Orbit.,죽은 궤도에 서약하고 죽은 궤도 항소멸 방어구를 완전히 갖춰 입은 상태로 명성을 획득해야 합니다.,DestinyInventoryItemDefinition,,,item | medium
+156,name,Empty Aspect Socket,빈 상 소켓,DestinyInventoryItemDefinition,,,item | short
+157,description,Aspects modify your subclass with new actions for your Guardian to bring to combat.,"상은 하위직업을 변경하여, 수호자가 전투에 사용할 수 있는 동작을 추가해 줍니다.",DestinyInventoryItemDefinition,,,item | medium
+158,name,Apostate,배교자,DestinyInventoryItemDefinition,,,item | short
+159,name,Bushido Cloak,무사도 망토,DestinyInventoryItemDefinition,,,item | short
+160,name,Rapid-Fire Frame,속사 프레임,DestinyInventoryItemDefinition,,,item | short
+161,description,Deeper ammo reserves. Slightly faster reload when magazine is empty.,예비 탄약을 보다 많이 소지할 수 있습니다. 탄창이 비었을 때 재장전 속도가 다소 빨라집니다.,DestinyInventoryItemDefinition,,,item | medium
+162,name,Clutch Extol Mask,위기의 격찬 가면,DestinyInventoryItemDefinition,,,item | short
+163,name,Intercalary,윤일,DestinyInventoryItemDefinition,,,item | short
+164,name,Coronation Bond,대관식 완장,DestinyInventoryItemDefinition,,,item | short
+165,name,Alone in the Dark,홀로 어둠 속에서,DestinyInventoryItemDefinition,,,item | short
+166,description,Open Overthrow chests near the location where you found the Ghost to begin healing the infection.,감염 치유를 시작하기 위해 고스트를 발견한 위치 근처에서 전복 상자를 여세요.,DestinyInventoryItemDefinition,,,item | medium
+167,name,Baseline Mark,기준점 표식,DestinyInventoryItemDefinition,,,item | short
+168,name,Trials of Osiris Gear,오시리스의 시험 장비,DestinyInventoryItemDefinition,,,item | short
+169,name,Sealed Ahamkara Grasps,봉인된 아함카라 손아귀,DestinyInventoryItemDefinition,,,item | short
+170,name,Brave Titan Gauntlets,용맹한 타이탄 건틀릿,DestinyInventoryItemDefinition,,,item | short
+171,name,Praefectus Robes,프레펙투스 로브,DestinyInventoryItemDefinition,,,item | short
+172,name,Balanced Heat Weapon,균형 열 무기,DestinyInventoryItemDefinition,,,item | short
+173,description,Increased damage versus powerful combatants. Very low heat generated. [Reload] to vent heat from the weapon. Overheating forces a sustained vent. Manually venting at very high heat greatly increases venting speed.,"강력한 전투원에게 향상된 피해를 입힙니다. 아주 낮은 열기가 생성됩니다. [재장전] : 무기의 열을 방출하세요. 과열되면 강제로 열을 방출해야 합니다. 열기가 아주 높은 상태에서 수동 방출을 시작하면, 방출 속도가 크게 향상됩니다.",DestinyInventoryItemDefinition,,,item | long
+174,name,Emblem (Rare),엠블럼 (희귀),DestinyInventoryItemDefinition,,,item | short
+175,name,House Salvation Intel,구원의 가문 정보,DestinyInventoryItemDefinition,,,item | short
+176,name,Reverberation,반향,DestinyInventoryItemDefinition,,,item | short
+177,description,Final blows with this weapon increase the size of its detonations for an improved duration.,"이 무기로 결정타 기록 시, 더 오랫동안 폭발의 규모가 증가합니다.",DestinyInventoryItemDefinition,,,item | medium
+178,name,Collective Psyche Cuirass,집단 심리 흉갑,DestinyInventoryItemDefinition,,,item | short
+179,name,Set and Spike,던지고 내려치기,DestinyInventoryItemDefinition,,,item | short
+180,name,Chattering Bone,수다쟁이 뼈,DestinyInventoryItemDefinition,,,item | short
+181,name,Wicked Sister,못된 누이,DestinyInventoryItemDefinition,,,item | short
+182,name,Frostreach Boots,결빙 범위 장화,DestinyInventoryItemDefinition,,,item | short
+183,name,Antaeus Wards,안타이오스 보호막,DestinyInventoryItemDefinition,,,item | short
+184,name,Report: REVERSE-LURE,보고: 역-미끼,DestinyInventoryItemDefinition,,,item | short
+185,description,Use Deepsight to reach a vantage point from which you can observe the lure.,심안을 사용하여 미끼를 관찰할 수 있는 관측 지점으로 가세요.,DestinyInventoryItemDefinition,,,item | medium
+186,name,Refugee Helm,난민 투구,DestinyInventoryItemDefinition,,,item | short
+187,name,Business as Usual,정상 영업,DestinyInventoryItemDefinition,,,item | short
+188,description,Deposit Motes. Dropped Motes subtract x2 score. Win Gambit matches.,티끌 반납 티끌을 떨어뜨리면 2점이 차감됩니다. 갬빗 경기에서 승리하십시오.,DestinyInventoryItemDefinition,,,item | medium
+189,name,Lights Out,소등,DestinyInventoryItemDefinition,,,item | short
+190,description,"Have an ally invader defeat four opposing Guardians in a single invasion three times, OR defeat four opposing Guardians as an invader. As an invader, defeat 25 opposing Guardians in Gambit.",침입 한 번에서 아군 침입자가 상대편 수호자 4명을 3번 처치하도록 하거나 침입자로 상대편 수호자 4명을 처치하세요. 침입자로 갬빗에서 상대편 수호자 25명을 처치하십시오.,DestinyInventoryItemDefinition,,,item | medium
+191,name,Adventurer's Pack Accessories,모험가의 팩 액세서리,DestinyInventoryItemDefinition,,,item | short
+192,description,Contains 3 adventurer-themed accessories. Bundle price will be reduced for each item already owned.,모험가 테마의 액세서리 3개가 들어 있습니다. 이미 소유한 품목이 있는 경우 번들 가격이 감소합니다.,DestinyInventoryItemDefinition,,,item | medium
+193,name,Renewal Grasps,갱생 손아귀,DestinyInventoryItemDefinition,,,item | short
+194,name,Steadfast Titan Ornament,확고부동 타이탄 장식,DestinyInventoryItemDefinition,,,item | short
+195,description,"Complete Heroic strikes during Season 3 to earn this ornament. It is unlocked to the Took Offense, Shelter in Place, and Xenos Vale IV head armor.","3시즌 동안 영웅 공격전을 완료하면 이 장식을 받을 수 있습니다. 받아낸 공격, 준비된 대피소 및 낯섦과의 작별 IV 머리 방어구에 사용할 수 있습니다.",DestinyInventoryItemDefinition,,,item | medium
+196,name,Heavy Burst,중량 집중 사격,DestinyInventoryItemDefinition,,,item | short
+197,description,"Fires a hard-hitting, two-round burst. Slightly reduces flinching from incoming fire while aiming.",강력한 2연사 탄환을 발사합니다. 조준 중에 피해를 받을 때 피격 반동이 약간 감소합니다.,DestinyInventoryItemDefinition,,,item | medium
+198,name,Fortunate Star,행운의 별,DestinyInventoryItemDefinition,,,item | short
+199,name,Lawless Starter Pack,무법 스타터 팩,DestinyInventoryItemDefinition,,,item | short
+200,description,Contains 3 exclusive items and 3 Armor Synthesis tokens.,고유 아이템 3개와 방어구 합성 토큰 3개가 들어 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+201,name,Wishful Ignorance,소망하는 무지,DestinyInventoryItemDefinition,,,item | short
+202,name,Mihaylova's Triumph,미하일로바의 업적,DestinyInventoryItemDefinition,,,item | short
+203,name,Service Revolver,군용 리볼버,DestinyInventoryItemDefinition,,,item | short
+204,name,Psychohack,정신 해킹,DestinyInventoryItemDefinition,,,item | short
+205,description,Sustained damage from this weapon exhausts the target for a short duration. Exhausted targets deal reduced outgoing damage.,이 무기로 지속 피해를 주면 잠시 동안 대상을 탈진시킵니다. 대상이 탈진하면 대상의 공격력이 감소합니다.,DestinyInventoryItemDefinition,,,item | medium
+206,name,Fatebringer,운명인도자,DestinyInventoryItemDefinition,,,item | short
+207,name,Claw Machine,뽑기 기계,DestinyInventoryItemDefinition,,,item | short
+208,name,Lost Pacific Mask,잃어버린 대양 가면,DestinyInventoryItemDefinition,,,item | short
+209,name,Rivalry Blacksand,검은 모래 경쟁,DestinyInventoryItemDefinition,,,item | short
+210,description,Equip this shader to change the color of your gear.,이 안료를 적용하면 장비의 색상을 바꿀 수 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+211,name,Rivalry Whitesand,하얀 모래 경쟁,DestinyInventoryItemDefinition,,,item | short
+212,name,Perpetual Loophole,영속적인 구멍,DestinyInventoryItemDefinition,,,item | short
+213,description,Deal additional melee damage while protected by an overshield. Defeating targets with melee final blows while the overshield is active will refresh it.,보호막으로 보호되는 동안 추가적인 근접 피해를 줍니다. 보호막이 활성화된 상태에서 대상을 근접 공격 결정타로 처치하면 초기화됩니다.,DestinyInventoryItemDefinition,,,item | medium
+214,name,Armor-Piercing Rounds,철갑탄,DestinyInventoryItemDefinition,,,item | short
+215,description,Rounds cause extra damage to combatants' shields and overpenetrate targets. • Slightly increases range,전투원의 보호막에 추가 피해를 주고 대상을 관통합니다. • 사거리를 다소 증가시킵니다,DestinyInventoryItemDefinition,,,item | medium
+216,name,Exodus Down Mask,엑소더스의 추락 가면,DestinyInventoryItemDefinition,,,item | short
+217,name,Sleight of Hand,교묘한 속임수,DestinyInventoryItemDefinition,,,item | short
+218,description,"Final blows with weapons or abilities while this weapon is stowed increase its handling, stability, and reload speed for a short duration.","이 무기를 보관한 상태에서 무기 또는 능력으로 결정타를 기록하면 잠시 동안 이 무기의 조작성, 안정성, 재장전 속도가 증가합니다.",DestinyInventoryItemDefinition,,,item | medium
+219,name,Honor of Hercules Set,헤라클레스의 명예 세트,DestinyInventoryItemDefinition,,,item | short
+220,description,Complete your item set!,아이템 세트를 완성하세요!,DestinyInventoryItemDefinition,,,item | short
+221,name,Iron Banner Engram,강철 깃발 엔그램,DestinyInventoryItemDefinition,,,item | short
+222,description,An engram with a Gear Tiered weapon. Gear Tier depends on reward score.,보상 점수에 따라 장비 단계가 결정되는 장비 단계 무기가 들어 있는 엔그램입니다.,DestinyInventoryItemDefinition,,,item | medium
+223,name,Voltshot,볼트샷,DestinyInventoryItemDefinition,,,item | short
+224,description,"Reloading this weapon after defeating a target overcharges this weapon for a short period of time, causing it to jolt on its next hit.",대상을 처치 후 이 무기를 재장전하면 짧은 시간 동안 무기를 과충전하여 다음 명중 시 충격이 발생합니다.,DestinyInventoryItemDefinition,,,item | medium
+225,name,A Stride to the Edge,바깥을 향한 발걸음,DestinyInventoryItemDefinition,,,item | short
+226,description,"Equip this ornament to change the appearance of Transversive Steps. Once you get an ornament, it's unlocked on all characters on your account.",이 장식을 장착하면 횡단 걸음 외형이 변합니다. 획득한 장식은 계정 내 모든 캐릭터에 사용할 수 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+227,name,Cursed Arcana Hood,저주받은 아르카나 두건,DestinyInventoryItemDefinition,,,item | short
+228,name,Gjallarfoam,걀라르폼,DestinyInventoryItemDefinition,,,item | short
+229,description,"Equip this weapon ornament to change the appearance of Gjallarhorn. Once you get an ornament, it's unlocked for all characters on your account.",걀라르호른에 장착하여 외양을 바꾸는 무기 장식입니다. 획득한 장식은 계정 내 모든 캐릭터에서 사용할 수 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+230,name,Defender of the Well,우물의 방어자,DestinyInventoryItemDefinition,,,item | short
+231,description,"""We don't have the resources to repair the Well if it fails. We must defend it."" —Petra Venj","""우물이 오염되어도 복구할 자원이 없어요. 우물을 방어해야 해요."" - 페트라 벤지",DestinyInventoryItemDefinition,,,item | medium
+232,name,Corrective // Protective,교정 // 보호,DestinyInventoryItemDefinition,,,item | short
+233,name,Bitterpearl,차가운 진주,DestinyInventoryItemDefinition,,,item | short
+234,name,Gambit Jadestone,갬빗 옥석,DestinyInventoryItemDefinition,,,item | short
+235,name,Prodigal Cloak,탕아 망토,DestinyInventoryItemDefinition,,,item | short
+236,name,Challenger XP,도전자 경험치,DestinyInventoryItemDefinition,,,item | short
+237,name,Beat the Heat Animation Set,열기를 이겨 내세요 애니메이션 세트,DestinyInventoryItemDefinition,,,item | short
+238,description,Contains 4 Solstice accessories. Pack price will be reduced for each item already owned.,지점 액세서리 4개가 들어 있습니다. 이미 소유한 품목이 있는 경우 팩 가격이 감소합니다.,DestinyInventoryItemDefinition,,,item | medium
+239,name,Woven Firesmith Mask,화염장인 매듭 가면,DestinyInventoryItemDefinition,,,item | short
+240,name,Arc Alignment,전기 정렬,DestinyInventoryItemDefinition,,,item | short
+241,description,"Dealing Arc damage from any source aligns the battery's coils. When alignment is complete, [Alternate Weapon Action] to disengage the safety and enable hip-fired Starlight Beam to apply Jolt to any targets damaged for a short time. Aim down sights to slow the rate at which the battery drains.","전기 피해를 입히면 배터리의 코일이 정렬됩니다. 정렬이 완료되면, [대체 무기 동작] : 안전장치를 해제하고 별빛 광선을 비조준 발사하여 피해를 입은 대상에게 짧은 시간 동안 충격을 줍니다. 조준 사격하면 배터리가 소모되는 속도를 늦출 수 있습니다.",DestinyInventoryItemDefinition,,,item | long
+242,name,Memory of Omar Agah,오마르 아가의 기억,DestinyInventoryItemDefinition,,,item | short
+243,description,Defeat a powerful Hive Wizard with any Super ability.,아무 궁극기로나 강력한 군체 마법사를 처치하세요.,DestinyInventoryItemDefinition,,,item | medium
+244,description,Find Omar Agah's lost throwing knives. Use Bows or Sniper Rifles to land precision final blows on powerful targets. Guardians in the Crucible or Gambit grant the most efficient progress.,오마르 아가의 잃어버린 수리검을 찾으세요. 활 또는 저격총을 사용하여 강력한 대상에게 정밀 결정타를 적중시키세요. 시련의 장 또는 갬빗에서 수호자를 적중시키면 진척도를 가장 빠르게 높일 수 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+245,description,Use the portal in Sanctuary to return Omar Agah's Brace of Knives to Eris Morn.,피난처에 있는 차원문을 사용하여 오마르 아가의 검 팔찌를 에리스 몬에게 돌려주세요.,DestinyInventoryItemDefinition,,,item | medium
+246,description,Collect your reward from the chest in Eris Morn's overlook in the Enduring Abyss.,영속의 심연에 있는 에리스 몬의 전망대에 있는 상자에서 보상을 받으세요.,DestinyInventoryItemDefinition,,,item | medium
+247,name,Timelost Spirit Bloom,잃어버린 시간 영혼 꽃,DestinyInventoryItemDefinition,,,item | short
+248,description,Found in the Aionian Campus and the Caldera. May be exchanged for valuables and gear at the Altar of Relativity on Kepler.,아이오니언 캠퍼스와 칼데라에서 발견됩니다. 케플러에 있는 상대성의 제단에서 귀중품과 장비로 교환할 수 있습니다.,DestinyInventoryItemDefinition,,,item | medium
+249,name,Distorted Solstice Engram,왜곡된 지점 엔그램,DestinyInventoryItemDefinition,,,item | short
+250,description,An engram with a Tier 1 weapon or armor gear item.,1단계 무기 또는 방어구 장비 아이템이 있는 엔그램입니다.,DestinyInventoryItemDefinition,,,item | medium
+251,name,Powerful Friends,강력한 친구,DestinyInventoryItemDefinition,,,item | short
+252,name,The Inquisitor,심문관,DestinyInventoryItemDefinition,,,item | short
+253,name,Dendrite Shimmer Warlock Set,아른거리는 수상돌기 워록 세트,DestinyInventoryItemDefinition,,,item | short
+254,description,Contains a full set of Dawning 2021 Warlock universal ornaments. Set price reduced for each item you already own.,2021년 여명 워록 범용 장식 세트 전체가 들어 있습니다. 이미 소유한 품목이 있는 경우 세트 가격이 감소합니다.,DestinyInventoryItemDefinition,,,item | medium
+255,name,The Dawn Comes to Eververse,에버버스에 여명이 오다,DestinyInventoryItemDefinition,,,item | short
+256,description,Speak with Tess Everis in the Tower.,탑에서 테스 에버리스와 대화하세요.,DestinyInventoryItemDefinition,,,item | short
+257,name,Terror's End,공포의 끝,DestinyInventoryItemDefinition,,,item | short
+258,name,Deep in the Woods,깊은 숲,DestinyInventoryItemDefinition,,,item | short
+259,name,Exotic Engram,경이 엔그램,DestinyInventoryItemDefinition,,,item | short
+260,description,An engram with remarkable encoding markers. A Cryptarch would be thrilled to decode this to reveal its true nature.,탁월한 암호화 표시가 있는 엔그램입니다. 이것을 해독하여 그 본질을 드러내는 일을 맡으면 어느 해독가라도 설렐 겁니다.,DestinyInventoryItemDefinition,,,item | medium
+261,name,The Bombardiers,척탄병,DestinyInventoryItemDefinition,,,item | short
+262,name,Additional Bounties,추가 현상금,DestinyInventoryItemDefinition,,,item | short
+263,description,Obtain an additional random bounty from Variks.,바릭스에게서 무작위 현상금을 추가로 획득하세요.,DestinyInventoryItemDefinition,,,item | short
+264,name,Solstice Boots (Resplendent),지점의 장화(유광),DestinyInventoryItemDefinition,,,item | short
+265,name,The Supremacy,패권,DestinyInventoryItemDefinition,,,item | short
+266,name,The Stag,숫사슴,DestinyInventoryItemDefinition,,,item | short
+267,name,Candescent Prism Boots,백열 프리즘 장화,DestinyInventoryItemDefinition,,,item | short
+268,name,Steeplechase Vestment,장애물 경주 제의,DestinyInventoryItemDefinition,,,item | short
+269,name,Legacy: Shadowkeep,유산: 섀도우킵,DestinyInventoryItemDefinition,,,item | short
+270,description,Travel to the Moon and stave off the Hive resurgence alongside your fellow Guardians.,달로 가서 동료 수호자들과 함께 다시 기승을 부리는 군체를 막아 내세요.,DestinyInventoryItemDefinition,,,item | medium
+271,name,Faculty Advisement,교직원 상담,DestinyInventoryItemDefinition,,,item | short
+272,description,Return to Ikora to speak with her about everything that's happened.,아이코라에게 돌아가 일어난 모든 일에 관해 대화하세요.,DestinyInventoryItemDefinition,,,item | medium
+273,name,A Forest of Red,붉은 숲,DestinyInventoryItemDefinition,,,item | short
+274,description,"You can find this rare emblem only once you reach a certain score in the Nightfall ""Tree of Probabilities.""",'확률의 나무' 황혼전에서 일정한 점수에 도달해야만 받을 수 있는 희귀 문양입니다.,DestinyInventoryItemDefinition,,,item | medium
+275,name,Valus Intrigue,발루스의 음모,DestinyInventoryItemDefinition,,,item | short
+276,name,No More Lasers,레이저 금지,DestinyInventoryItemDefinition,,,item | short
+277,name,Inside Line,인사이드 라인,DestinyInventoryItemDefinition,,,item | short
+278,name,Adaptive Frame,적응형 프레임,DestinyInventoryItemDefinition,,,item | short
+279,description,"A well-rounded grip, reliable and sturdy.","균형 잡힌 손잡이로, 안정적이고 튼튼합니다.",DestinyInventoryItemDefinition,,,item | short
+280,name,Forerunner,선구자,DestinyInventoryItemDefinition,,,item | short
+281,name,Anthemic Invocation Gloves,웅장한 탄원 장갑,DestinyInventoryItemDefinition,,,item | short
+282,name,Resonant Fury Mark,공명하는 분노 표식,DestinyInventoryItemDefinition,,,item | short
+283,name,Lion's Pride,사자의 긍지,DestinyInventoryItemDefinition,,,item | short
+284,name,Hazard Pay,위험 수당,DestinyInventoryItemDefinition,,,item | short
+285,name,Reef Regalia,리프 예복,DestinyInventoryItemDefinition,,,item | short
+286,name,Wayfarer's Guise,나그네의 위장,DestinyInventoryItemDefinition,,,item | short
+287,name,Verdant Infinity Shell,무한한 신록 의체,DestinyInventoryItemDefinition,,,item | short
+288,name,Trostland Courier Shell,트로스트랜드 운반책 의체,DestinyInventoryItemDefinition,,,item | short
+289,name,Prophet Shell,예언자 의체,DestinyInventoryItemDefinition,,,item | short
+290,name,Hatchling Shell,부화 의체,DestinyInventoryItemDefinition,,,item | short
+291,name,Revelry Masquerade Shell,향연 가면무도회 의체,DestinyInventoryItemDefinition,,,item | short
+292,name,Revelry Courier Shell,향연 운반책 의체,DestinyInventoryItemDefinition,,,item | short
+293,name,Aisha's Embrace,아이샤의 포용,DestinyInventoryItemDefinition,,,item | short
+294,name,You Pass,합격,DestinyInventoryItemDefinition,,,item | short
+295,name,The Return,귀환,DestinyInventoryItemDefinition,,,item | short
+296,description,Search the Cosmodrome for Peach.,발사 기지에서 피치를 찾으세요.,DestinyInventoryItemDefinition,,,item | short
+297,name,Roast 'Em,통구이,DestinyInventoryItemDefinition,,,item | short
+298,description,"Your Proximity Knife scorches targets it damages with its explosions, or ignites targets on final blow. After throwing a Proximity Knife, you gain increased melee regeneration until the knife explodes.","근접 칼이 폭발로 피해를 주는 대상을 소각하거나, 결정타를 기록한 대상을 점화합니다. 근접 칼을 투척한 후에는 칼이 폭발할 때까지 근접 공격 충전 속도가 증가합니다.",DestinyInventoryItemDefinition,,,item | long
+299,name,Dendrite Shimmer Gauntlets,아른거리는 수상돌기 건틀릿,DestinyInventoryItemDefinition,,,item | short

@@ -1,5 +1,6 @@
 import hashlib
 import io
+import re
 import uuid
 from datetime import datetime, timezone
 
@@ -32,6 +33,23 @@ OUTPUT_COLUMNS = [
     "error_type",
     "memo",
     "reviewer",
+]
+
+TABLE_VIEW_COLUMNS = [
+    "source",
+    "human_translation",
+    "llm_translation",
+    "error_type",
+    "memo",
+    "reviewer",
+    "id",
+    "tag",
+    "context",
+    "speaker",
+    "listener",
+    "notes",
+    "prompt_version_name",
+    "model",
 ]
 
 OPTIONAL_INPUT_COLUMNS = ["id", "tag", "context", "speaker", "listener", "notes"]
@@ -272,7 +290,12 @@ def load_rows(supabase, dataset_id: str) -> pd.DataFrame:
         .execute()
         .data
     )
+    rows = sorted(rows, key=lambda row: natural_sort_key(row["row_id"]))
     return pd.DataFrame(rows)
+
+
+def natural_sort_key(value: str):
+    return [int(part) if part.isdigit() else part.casefold() for part in re.split(r"(\d+)", str(value))]
 
 
 def load_runs(supabase, dataset_id: str):
@@ -284,6 +307,25 @@ def load_runs(supabase, dataset_id: str):
         .execute()
         .data
     )
+
+
+def count_runs_for_prompt(supabase, prompt_version_id: str) -> int:
+    rows = (
+        supabase.table("translation_runs")
+        .select("run_id")
+        .eq("prompt_version_id", prompt_version_id)
+        .execute()
+        .data
+    )
+    return len(rows)
+
+
+def delete_prompt_version(supabase, prompt_version_id: str):
+    supabase.table("prompt_versions").delete().eq("prompt_version_id", prompt_version_id).execute()
+
+
+def delete_translation_run(supabase, run_id: str):
+    supabase.table("translation_runs").delete().eq("run_id", run_id).execute()
 
 
 def load_translations(supabase, run_id: str) -> pd.DataFrame:
@@ -385,6 +427,45 @@ def sidebar_openai_key():
 
 def render_upload_tab(supabase):
     st.subheader("CSV upload")
+    example_df = pd.DataFrame(
+        [
+            {
+                "id": "row_0001",
+                "tag": "item_name",
+                "source": "Legendary Engram",
+                "human_translation": "전설 엔그램",
+                "context": "DestinyInventoryItemDefinition",
+                "speaker": "",
+                "listener": "",
+                "notes": "item | short",
+                "llm_translation": "",
+                "error_type": "",
+                "memo": "",
+                "reviewer": "",
+            },
+            {
+                "id": "row_0002",
+                "tag": "description",
+                "source": "Contains a random Legendary weapon or armor piece.",
+                "human_translation": "무작위 전설 무기 또는 방어구가 들어 있습니다.",
+                "context": "Inventory item description",
+                "speaker": "",
+                "listener": "",
+                "notes": "",
+                "llm_translation": "무작위 전설 무기나 방어구 조각을 포함합니다.",
+                "error_type": "Style",
+                "memo": "UI 톤에 비해 문어체 느낌",
+                "reviewer": "reviewer_a",
+            },
+        ]
+    )
+    with st.expander("CSV format example", expanded=True):
+        st.caption(
+            "Required: source, human_translation. Optional: id, tag, context, speaker, listener, notes. "
+            "Result CSV re-upload can also include llm_translation, error_type, memo, reviewer."
+        )
+        st.dataframe(example_df, width="stretch", hide_index=True)
+
     dataset_name = st.text_input("Dataset name")
     description = st.text_area("Description", height=80)
     uploaded = st.file_uploader("Upload CSV", type=["csv"])
@@ -398,7 +479,7 @@ def render_upload_tab(supabase):
         st.success(f"Loaded {len(df)} rows from CSV.")
         if (df["source"].str.len() > LONG_SOURCE_WARNING_CHARS).any():
             st.warning(f"Some source values exceed {LONG_SOURCE_WARNING_CHARS} characters.")
-        st.dataframe(df.head(20), use_container_width=True)
+        st.dataframe(df.head(20), width="stretch")
     except Exception as exc:
         st.error(f"CSV could not be loaded: {exc}")
         return
@@ -418,6 +499,29 @@ def render_prompt_tab(supabase):
     selected_name = st.selectbox("Existing prompt", [p["name"] for p in prompts])
     selected = next(p for p in prompts if p["name"] == selected_name)
     st.text_area("Prompt text", value=selected["prompt_text"], height=260, disabled=True)
+
+    used_run_count = count_runs_for_prompt(supabase, selected["prompt_version_id"])
+    delete_disabled = selected.get("is_default") or used_run_count > 0
+    delete_help = "Default prompts and prompts already used by runs are kept for traceability."
+    with st.expander("Delete selected prompt version", expanded=False):
+        st.caption(f"Used by {used_run_count} translation runs.")
+        confirm_delete_prompt = st.checkbox(
+            f"Delete prompt version: {selected_name}",
+            key=f"confirm_delete_prompt_{selected['prompt_version_id']}",
+            disabled=delete_disabled,
+            help=delete_help,
+        )
+        if st.button(
+            "Delete prompt version",
+            disabled=delete_disabled or not confirm_delete_prompt,
+            key=f"delete_prompt_{selected['prompt_version_id']}",
+        ):
+            try:
+                delete_prompt_version(supabase, selected["prompt_version_id"])
+                st.success("Prompt version deleted.")
+                st.rerun()
+            except Exception as exc:
+                st.error(f"Prompt delete failed: {exc}")
 
     st.divider()
     st.markdown("Create new prompt version")
@@ -441,13 +545,54 @@ def render_translation_controls(supabase, rows_df: pd.DataFrame, dataset_id: str
 
     model = st.text_input("Model", value="gpt-4o-mini")
     available_ids = rows_df["row_id"].tolist()
-    default_ids = available_ids[: min(DEFAULT_BATCH_SIZE, len(available_ids))]
-    selected_ids = st.multiselect(
-        f"Rows to translate (max {MAX_RUN_ROWS})",
-        available_ids,
-        default=default_ids,
-        format_func=lambda rid: short_label(f"{rid}: {rows_df.loc[rows_df['row_id'] == rid, 'source'].iloc[0]}"),
+    row_labels = {
+        row["row_id"]: short_label(f"{row['row_id']}: {row['source']}")
+        for _, row in rows_df.iterrows()
+    }
+    selection_options = ["Row range", "Specific rows"]
+    selection_key = f"row_selection_mode_{dataset_id}"
+    if st.session_state.get(selection_key) not in (None, *selection_options):
+        del st.session_state[selection_key]
+    selection_mode = st.radio(
+        "Row selection",
+        selection_options,
+        horizontal=True,
+        key=selection_key,
+        help="Use Row range for contiguous batches. Use Specific rows for targeted reruns.",
     )
+
+    if selection_mode == "Row range":
+        batch_cols = st.columns(2)
+        start_at = int(batch_cols[0].number_input(
+            "Start row number",
+            min_value=1,
+            max_value=max(1, len(available_ids)),
+            value=1,
+            step=1,
+        ))
+        end_at = int(batch_cols[1].number_input(
+            "End row number",
+            min_value=1,
+            max_value=max(1, len(available_ids)),
+            value=min(DEFAULT_BATCH_SIZE, len(available_ids)),
+            step=1,
+        ))
+        if end_at < start_at:
+            selected_ids = []
+            st.warning("End row number must be greater than or equal to start row number.")
+        else:
+            selected_ids = available_ids[start_at - 1 : end_at]
+            if selected_ids:
+                st.caption(f"Selected {len(selected_ids)} rows: {selected_ids[0]} to {selected_ids[-1]}")
+    else:
+        default_ids = available_ids[: min(DEFAULT_BATCH_SIZE, len(available_ids))]
+        selected_ids = st.multiselect(
+            f"Rows to translate (max {MAX_RUN_ROWS})",
+            available_ids,
+            default=default_ids,
+            format_func=lambda rid: row_labels.get(rid, str(rid)),
+        )
+        st.caption(f"Selected {len(selected_ids)} rows.")
 
     if len(selected_ids) > MAX_RUN_ROWS:
         st.warning(f"Select at most {MAX_RUN_ROWS} rows per run.")
@@ -474,6 +619,11 @@ def render_translation_controls(supabase, rows_df: pd.DataFrame, dataset_id: str
         progress = st.progress(0)
         status = st.empty()
         selected_rows = rows_df[rows_df["row_id"].isin(selected_ids)]
+        if selected_rows.empty:
+            st.error("No matching rows were selected.")
+            return
+        if len(selected_rows) != len(selected_ids):
+            st.warning(f"Matched {len(selected_rows)} rows from {len(selected_ids)} selected IDs.")
         for idx, (_, row) in enumerate(selected_rows.iterrows(), start=1):
             status.write(f"Translating {row['row_id']} ({idx}/{len(selected_rows)})")
             try:
@@ -579,20 +729,35 @@ def render_work_tab(supabase):
         f"{run.get('created_at', '')[:19]} / {run.get('model', '')} / {(run.get('prompt_versions') or {}).get('name', '')}": run
         for run in runs
     }
-    selected_run_label = st.selectbox("Translation run", list(run_options.keys()))
+    run_select_col, run_delete_col = st.columns([12, 1])
+    selected_run_label = run_select_col.selectbox("Translation run", list(run_options.keys()))
     selected_run = run_options[selected_run_label]
     run_id = selected_run["run_id"]
+    run_delete_col.markdown("<div style='height: 1.75rem'></div>", unsafe_allow_html=True)
+    if run_delete_col.button("Delete", help="Delete selected translation run", key=f"delete_run_{run_id}"):
+        try:
+            delete_translation_run(supabase, run_id)
+            if st.session_state.get("selected_run_id") == run_id:
+                del st.session_state["selected_run_id"]
+            st.success("Translation run deleted.")
+            st.rerun()
+        except Exception as exc:
+            st.error(f"Run delete failed: {exc}")
 
     translations_df = load_translations(supabase, run_id)
     annotations_df = load_annotations(supabase, run_id)
     work_df = build_working_frame(rows_df, translations_df, annotations_df, selected_run)
+    translated_df = work_df[work_df["llm_translation"].fillna("").astype(str).str.strip() != ""].copy()
+
+    show_untranslated = st.checkbox("Show untranslated rows too", value=False)
+    display_base_df = work_df if show_untranslated else translated_df
 
     left, right = st.columns([1, 2])
-    tags = ["All"] + sorted(work_df["tag"].dropna().unique().tolist())
+    tags = ["All"] + sorted(display_base_df["tag"].dropna().unique().tolist())
     selected_tag = left.selectbox("Tag filter", tags)
     query = right.text_input("Search source / human / LLM / memo")
 
-    filtered = work_df.copy()
+    filtered = display_base_df.copy()
     if selected_tag != "All":
         filtered = filtered[filtered["tag"] == selected_tag]
     if query.strip():
@@ -602,19 +767,32 @@ def render_work_tab(supabase):
             mask = mask | filtered[col].fillna("").astype(str).str.casefold().str.contains(q, regex=False)
         filtered = filtered[mask]
 
-    st.caption(f"{len(filtered)} visible rows / {len(work_df)} total rows")
+    st.caption(
+        f"{len(filtered)} visible rows / {len(translated_df)} translated rows / {len(work_df)} dataset rows"
+    )
     view = st.radio("View", ["Card view", "Table view"], horizontal=True)
     if view == "Card view":
-        render_cards(supabase, filtered, run_id)
+        if filtered.empty:
+            st.info("No rows match the current filters.")
+        else:
+            render_cards(supabase, filtered, run_id)
     else:
-        st.dataframe(filtered.reindex(columns=OUTPUT_COLUMNS), use_container_width=True, hide_index=True)
+        st.dataframe(filtered.reindex(columns=TABLE_VIEW_COLUMNS), width="stretch", hide_index=True)
 
     st.download_button(
-        "Download result CSV",
-        data=csv_download_bytes(work_df),
+        "Download translated rows CSV",
+        data=csv_download_bytes(translated_df),
         file_name=f"{selected_label.split(' / ')[0]}_results.csv",
         mime="text/csv",
+        disabled=translated_df.empty,
     )
+    with st.expander("Download options", expanded=False):
+        st.download_button(
+            "Download all dataset rows with selected run columns",
+            data=csv_download_bytes(work_df),
+            file_name=f"{selected_label.split(' / ')[0]}_all_rows_results.csv",
+            mime="text/csv",
+        )
 
 
 def main():
