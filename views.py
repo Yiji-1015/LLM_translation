@@ -398,13 +398,6 @@ def render_cards(supabase, df: pd.DataFrame, run_id: str):
                     st.success(f"{row['id']} 저장됨")
                 except Exception as exc:
                     st.error(f"{row['id']} 저장 실패: {exc}")
-            if ann_cols[4].button("삭제", key=f"delete_annotation_{key_prefix}"):
-                try:
-                    delete_annotation(supabase, row["id"], run_id)
-                    st.success(f"{row['id']} 리뷰 삭제됨")
-                    st.rerun()
-                except Exception as exc:
-                    st.error(f"{row['id']} 리뷰 삭제 실패: {exc}")
 
 
 # ---------- 작업 탭 ----------
