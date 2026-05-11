@@ -303,6 +303,11 @@ def save_annotation(supabase, row_id: str, run_id: str, error_type: str, memo: s
     supabase.table("annotations").upsert(payload, on_conflict="row_id,run_id").execute()
 
 
+def delete_annotation(supabase, row_id: str, run_id: str):
+    """Delete one annotation for a row/run pair."""
+    supabase.table("annotations").delete().eq("row_id", row_id).eq("run_id", run_id).execute()
+
+
 def insert_translation(supabase, row_id: str, run_id: str, llm_translation: str):
     """병렬 번역 루프에서 결과가 하나 나올 때마다 호출됨.
     insert만 — 같은 (row_id, run_id)에 대해 다시 돌리고 싶다면 새 run을 만드는 것이 원칙."""

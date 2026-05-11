@@ -39,6 +39,7 @@ from db import (
     count_runs_for_prompt,
     create_prompt_version,
     create_translation_run,
+    delete_annotation,
     delete_prompt_version,
     delete_translation_run,
     get_prompt_versions,
@@ -378,7 +379,7 @@ def render_cards(supabase, df: pd.DataFrame, run_id: str):
 
             # 위젯 key는 카드마다 고유해야 함 — run_id + row id로 prefix.
             key_prefix = f"{run_id}_{row['id']}"
-            ann_cols = st.columns([1, 2, 1, 1])
+            ann_cols = st.columns([1, 2, 1, 1, 1])
 
             # 기존 error_type이 ERROR_TYPES 목록에 없는 값이면 'Other'로 fallback.
             # (예: 라벨 enum이 바뀐 뒤 옛 데이터가 있을 때 selectbox가 깨지지 않게)
@@ -397,6 +398,13 @@ def render_cards(supabase, df: pd.DataFrame, run_id: str):
                     st.success(f"{row['id']} 저장됨")
                 except Exception as exc:
                     st.error(f"{row['id']} 저장 실패: {exc}")
+            if ann_cols[4].button("삭제", key=f"delete_annotation_{key_prefix}"):
+                try:
+                    delete_annotation(supabase, row["id"], run_id)
+                    st.success(f"{row['id']} 리뷰 삭제됨")
+                    st.rerun()
+                except Exception as exc:
+                    st.error(f"{row['id']} 리뷰 삭제 실패: {exc}")
 
 
 # ---------- 작업 탭 ----------
@@ -528,7 +536,7 @@ def render_work_tab(supabase):
 
 # ---------- 리뷰 탭 ----------
 
-def render_review_card(row: pd.Series):
+def render_review_card(supabase, row: pd.Series):
     """라벨 기준 탭의 카드 — 라벨링된 오류 하나를 카드 한 장으로 표시.
     수정 기능 없이 읽기 전용. (수정은 작업 탭에서 함)"""
     with st.container(border=True):
@@ -550,6 +558,14 @@ def render_review_card(row: pd.Series):
         if str(row.get("memo", "")).strip():
             st.markdown("**메모**")
             st.write(row.get("memo", ""))
+
+        if st.button("리뷰 삭제", key=f"delete_review_{row.get('run_id', '')}_{row.get('id', '')}"):
+            try:
+                delete_annotation(supabase, row["id"], row["run_id"])
+                st.success("리뷰를 삭제했습니다.")
+                st.rerun()
+            except Exception as exc:
+                st.error(f"리뷰 삭제 실패: {exc}")
 
 
 def render_label_review_tab(supabase):
@@ -662,7 +678,7 @@ def render_label_review_tab(supabase):
             st.info("현재 필터에 맞는 오류 리뷰가 없습니다.")
         else:
             for _, row in filtered.iterrows():
-                render_review_card(row)
+                render_review_card(supabase, row)
 
     st.download_button(
         "필터된 오류 리뷰 CSV 다운로드",
