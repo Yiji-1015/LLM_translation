@@ -6,3 +6,4 @@ secrets.toml
 .venv/
 venv/
 data
+.claude/
