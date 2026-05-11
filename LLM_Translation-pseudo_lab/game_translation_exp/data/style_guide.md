@@ -1,0 +1,9 @@
+- Keep UI text concise (prefer <= 18 Korean chars if possible).
+- Preserve numbers/units/conditions exactly.
+- Use glossary terms strictly.
+- Do not add information not in source.
+- Tone:
+  - UI: compact/neutral
+  - perk: precise/systematic
+  - dialogue: natural spoken
+  - lore: immersive narrative

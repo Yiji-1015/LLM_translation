@@ -1,0 +1,81 @@
+sample_id,sentence_type,source_text,detected_entities,relation_context
+S001,UI,Unstoppable Force,,- No external relation context found. Use default sentence-type style.
+S002,UI,Nemean Gauntlets,,- No external relation context found. Use default sentence-type style.
+S003,UI,Icarus Drifter Legs,The Drifter,- Eris Morn romantic_partner_of The Drifter (confidence: high)\n- The Drifter emotional_anchor_of Eris Morn (confidence: high)\n- Aunor Mahal temporary_ally_of The Drifter (confidence: high)\n- Lodi cooperates_with The Drifter (confidence: medium)
+S004,UI,Light and Dark Saga Exotics,,- No external relation context found. Use default sentence-type style.
+S005,UI,Dreaming Spectrum,,- No external relation context found. Use default sentence-type style.
+S006,UI,Ana: Black Box,,- No external relation context found. Use default sentence-type style.
+S007,UI,Transmatter Components,,- No external relation context found. Use default sentence-type style.
+S008,UI,The Empty Tank: Legend,,- No external relation context found. Use default sentence-type style.
+S009,UI,Bounty Hunter: Tangled Shore,,- No external relation context found. Use default sentence-type style.
+S010,UI,Swordmaster's Gauntlets,,- No external relation context found. Use default sentence-type style.
+S011,UI,Court of Blades (Wrathborn): Expert,,- No external relation context found. Use default sentence-type style.
+S012,UI,(Heroic) Dark Alliance,,- No external relation context found. Use default sentence-type style.
+S013,UI,Traveler's Judgment 5,,- No external relation context found. Use default sentence-type style.
+S014,UI,Blackletter Greaves,,- No external relation context found. Use default sentence-type style.
+S015,UI,Event Ticket,,- No external relation context found. Use default sentence-type style.
+S016,UI,Venom Unrivaled Strides,,- No external relation context found. Use default sentence-type style.
+S017,UI,Markov Chain,,- No external relation context found. Use default sentence-type style.
+S018,UI,Imponent III,,- No external relation context found. Use default sentence-type style.
+S019,UI,Splicer Vandal's Armory,,- No external relation context found. Use default sentence-type style.
+S020,UI,Phantasmic Fighter,,- No external relation context found. Use default sentence-type style.
+S021,UI,The Ritual: Master,,- No external relation context found. Use default sentence-type style.
+S022,UI,Vex Shock,,- No external relation context found. Use default sentence-type style.
+S023,UI,Weapons Intel,,- No external relation context found. Use default sentence-type style.
+S024,UI,Cottontail Shell,,- No external relation context found. Use default sentence-type style.
+S025,perk,Adds a nest of spiders to your transmat effects.,,- No external relation context found. Use default sentence-type style.
+S026,perk,Kill each set of Glyphkeepers in Exhibition within 5 seconds of each other.,,- No external relation context found. Use default sentence-type style.
+S027,perk,Your equipped Scout Rifles and Pulse Rifles fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.,,- No external relation context found. Use default sentence-type style.
+S028,perk,"By aligning with the Festival Flame, you do more damage with Void power.",,- No external relation context found. Use default sentence-type style.
+S029,perk,Defeat combatants with precision final blows in Nightmare Hunts.,,- No external relation context found. Use default sentence-type style.
+S030,perk,Adds a phosphene appearance to your transmat effects.,,- No external relation context found. Use default sentence-type style.
+S031,perk,Final blows with this weapon fill the magazine of the equipped Energy weapon from reserves.,,- No external relation context found. Use default sentence-type style.
+S032,perk,Greatly increases charge rate and guard resistance.,,- No external relation context found. Use default sentence-type style.
+S033,perk,Faster ready and stow speed for Trace Rifles.,,- No external relation context found. Use default sentence-type style.
+S034,perk,Dimensional Tithes,,- No external relation context found. Use default sentence-type style.
+S035,perk,Body shots landed with this weapon increase precision damage and aim assist for a short time. Body shots landed while the perk is active refresh the time.,,- No external relation context found. Use default sentence-type style.
+S036,perk,Earn bonus Enhancement Prisms when completing ritual activities.,,- No external relation context found. Use default sentence-type style.
+S037,perk,Final blows with this weapon grant Super energy. This weapon gains bonus damage once your Super expires.,,- No external relation context found. Use default sentence-type style.
+S038,perk,Rapidly defeat combatants or Guardians with Auto Rifle final blows.,,- No external relation context found. Use default sentence-type style.
+S039,perk,Summon your Throwing Hammer back to you.,,- No external relation context found. Use default sentence-type style.
+S040,perk,Overflows the magazine based on the number of rapid final blows before reloading. Improves reload.,,- No external relation context found. Use default sentence-type style.
+S041,perk,+5 Class ▲,,- No external relation context found. Use default sentence-type style.
+S042,perk,Prosperity (Vanguard),Vanguard,- Caiatl allied_with Vanguard (confidence: high)\n- Savathun enemy_of Vanguard (confidence: high)\n- Dredgen Bael enemy_of Vanguard (confidence: high)\n- Mara Sov politically_cooperates_with Vanguard (confidence: medium)
+S043,perk,Increased damage against Taken enemies.,,- No external relation context found. Use default sentence-type style.
+S044,perk,Move faster while guarding with the Unbreakable shield. Damage blocked with Unbreakable is converted to grenade energy.,,- No external relation context found. Use default sentence-type style.
+S045,perk,Healing grenades spawn a Restorative Turret. Healing allies occasionally spawns an Orb of Power.,,- No external relation context found. Use default sentence-type style.
+S046,perk,Improved Drengr's Lash. Gain Woven Mail when suspending targets.,,- No external relation context found. Use default sentence-type style.
+S047,perk,"Equip this tier 5 weapon ornament to change the appearance of Burden of Guilt. Once you get an ornament, it's unlocked for all characters on your account.",,- No external relation context found. Use default sentence-type style.
+S048,perk,Heal yourself when using your class ability.  This modifier is only available during Solstice.,,- No external relation context found. Use default sentence-type style.
+S049,dialogue,Do you deserve it?,,- No external relation context found. Use default sentence-type style.
+S050,dialogue,"""He is the closest thing I will ever have to a son.""",,- No external relation context found. Use default sentence-type style.
+S051,dialogue,"""Under a sturdy enough helmet, no one can see how damaged you are."" —Reed-7, Exo Titan",,- No external relation context found. Use default sentence-type style.
+S052,dialogue,"""I have foreseen the work that will bring this system together. I'll need your strength."" —Emperor Calus",,- No external relation context found. Use default sentence-type style.
+S053,dialogue,"Do you believe in the Gaiaforms, the energies within planets?",,- No external relation context found. Use default sentence-type style.
+S054,dialogue,"""Many regard the Hive as mere monsters. But they are so much more. Their minds are sharp, like their blades."" —Eris Morn",Eris Morn,- Eris Morn romantic_partner_of The Drifter (confidence: high)\n- The Drifter emotional_anchor_of Eris Morn (confidence: high)\n- Lodi cooperates_with Eris Morn (confidence: medium)
+S055,dialogue,"At the edge of the universe, I stared into the infinite deep. It stared back, and was pleased. I would become the herald of its victory, and bear witness for all creation.",,- No external relation context found. Use default sentence-type style.
+S056,dialogue,"A little bolder. A little more focus. You are almost ready… to cast a Shadow. —Calus, Emperor of the Cabal",,- No external relation context found. Use default sentence-type style.
+S057,dialogue,"""We are what we survive. They will not be the Guardians."" —Lord Saladin",,- No external relation context found. Use default sentence-type style.
+S058,dialogue,"""There is a place where we can remember who we are."" —Imogen Rife",,- No external relation context found. Use default sentence-type style.
+S059,dialogue,"""There is an end to everything."" —Emissary of the Nine",,- No external relation context found. Use default sentence-type style.
+S060,dialogue,"""Yours, until the last flame dies and all words have been spoken."" —Shin Malphur to you, as you journey forth into the unknown",,- No external relation context found. Use default sentence-type style.
+S061,dialogue,"""I know you."" —Lord Felwinter",,- No external relation context found. Use default sentence-type style.
+S062,dialogue,"""Some speculate that the radiolarian fluid is the last vestige of a biological life-form that became the Vex."" —Sister Faora, ""Theories on the Vex""",,- No external relation context found. Use default sentence-type style.
+S063,dialogue,"""Have you ever stared into the green soulfire flame? There is terror, but also… something warm."" —Eris Morn",Eris Morn,- Eris Morn romantic_partner_of The Drifter (confidence: high)\n- The Drifter emotional_anchor_of Eris Morn (confidence: high)\n- Lodi cooperates_with Eris Morn (confidence: medium)
+S064,dialogue,"""Osiris said that he started to pity the Red Legion, getting trapped in here for infinite eternities. I think they're getting exactly what they deserve."" —Sagira",,- No external relation context found. Use default sentence-type style.
+S065,lore,"""I am lightning, energy unbound, but directed."" The Splicer felt the Arc energy crackling around him and joined with it.",,- No external relation context found. Use default sentence-type style.
+S066,lore,"A TRESPASSER you are not welcome here HOW DID YOU FIND US? ""She sent me."" You are not your queen. A PUPPET defined by scars We have no need of you. WE HAVE OUR OWN PUPPETS L E T H E R S P E A K ""I came to discuss the future.""",,- No external relation context found. Use default sentence-type style.
+S067,lore,"Sometimes it makes a guy feel better to make fun of someone way worse off than he is. He knows it's a mistake soon as he sets eyes on the giant robot face, though. Maybe somewhere else. He turns and goes, ignoring the dramatic monologue already kicking off behind him.",,- No external relation context found. Use default sentence-type style.
+S068,lore,this will not reach you anything a knife writes would never but no more speaking that time is over Im sorry I see the waves I see the ship sinking the sky is filled with shadow I love you I love you Im alone what hurts me is you are too,,- No external relation context found. Use default sentence-type style.
+S069,lore,"Someone else finds him there. He sees himself out, mouth stinging as he takes the stairs. That's it, then. There's nothing for him here. And he was a fool to think there was. Time to go.",,- No external relation context found. Use default sentence-type style.
+S070,lore,"""Even in the dark, I still feel the spark of life within me."" His Gauntlet roared as he drew a wide circle in the air, and the rains began to fall.",,- No external relation context found. Use default sentence-type style.
+S071,lore,"[[Neuron-Sheath key] [Run through, Time and time again] [In Ritual] [In Ceremony] [In Vital Sequence] [Image//History] [Vision//Grace] [Sight//Clairvoyance] [War divinely conjured] [Canvassed data bits] [Symphonic calculation] [Magnitude manufactured] [Order Incomplete]]",,- No external relation context found. Use default sentence-type style.
+S072,lore,"""There is nothing here, and I have no fear of nothing."" The Splicer saw herself in a hundred places at once, then chose her favorite.",,- No external relation context found. Use default sentence-type style.
+S073,lore,Few weapons have withstood the test of time longer than the trusty SUROS Regime. This is Golden Age tech brought to life by the fastidious engineers at SUROS. Its smart-matter frame is prized among Guardians for both efficiency and rarity. Some things never fall out of fashion.,,- No external relation context found. Use default sentence-type style.
+S074,lore,we were young once YOU WENT MAD TRYING TO UNDERSTAND W E W E N T M A D T R Y I N G T O S P E A K This doesn't matter. when you are ready we will take it from you AND YOU WILL BE GLAD OF IT,,- No external relation context found. Use default sentence-type style.
+S075,lore,"We treated the ship like its name, like one of the Guardians of old. But I swear to you that Sparrows have personalities, even spirits. I know that sounds crazy, but I believe that. AA's name was cold, and the Sparrow was cold. You couldn't warm it up. But boy it could fly.",,- No external relation context found. Use default sentence-type style.
+S076,lore,"THE RED SHIPS ENTER THE AIR IS HEAVY. Now, when you move, you can actually FEEL the weight of the world. This weight is a gift. you finally have our attention",,- No external relation context found. Use default sentence-type style.
+S077,lore,"""I am alight, but I will not be consumed."" The Splicer envisioned the fire in his hand, and he closed his fist around it.",,- No external relation context found. Use default sentence-type style.
+S078,lore,"You sought us out. IN SOME SMALL WAY, YOU FOUND US. But discovery always has a price. With curiosity comes consequence. S H E I S N O T R E A D Y SEEK JUDGMENT. GROW.",,- No external relation context found. Use default sentence-type style.
+S079,lore,"the edge of a system frays like string PATHS ARE CARVED BY MORE THAN RANGERS AND WAYFINDERS Out there in the remnants of old, the echo hums. W E H A D B E E N V I E W E D B E F O R E REMEMBER? DO YOU?",,- No external relation context found. Use default sentence-type style.
+S080,lore,"Getting out in the woods could clear his head. Maybe he shouldn't go after all. Familiar energy readings. Not Darkness, not Light, but the in-between stuff. Sterile neutrinos. Makes him think of a time way back when: Moondust and him. And the arrival of the Pyramid fleet…",,- No external relation context found. Use default sentence-type style.

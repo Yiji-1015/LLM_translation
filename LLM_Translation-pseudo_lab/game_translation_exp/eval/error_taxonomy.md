@@ -1,0 +1,8 @@
+- E1_proper_noun: proper noun handling
+- E2_mechanic_mistranslation: mistranslated game mechanic
+- E3_literal_awkward: awkward literal translation
+- E4_term_inconsistency: inconsistent terminology
+- E5_tone_register: wrong tone/register
+- E6_ui_style_mismatch: UI/style mismatch
+- E7_omission_addition: omission/addition of meaning
+- E8_number_format: number/unit/format error

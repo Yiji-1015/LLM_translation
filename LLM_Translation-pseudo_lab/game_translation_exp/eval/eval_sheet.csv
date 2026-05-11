@@ -1,0 +1,1 @@
+sample_id,sentence_type,source_text,condition_A,condition_B,condition_C,A_meaning,A_term,A_consistency,A_naturalness,A_ui_fit,B_meaning,B_term,B_consistency,B_naturalness,B_ui_fit,C_meaning,C_term,C_consistency,C_naturalness,C_ui_fit,best,error_type,notes

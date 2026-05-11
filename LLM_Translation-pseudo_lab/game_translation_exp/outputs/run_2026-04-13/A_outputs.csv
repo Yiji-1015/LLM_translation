@@ -1,0 +1,81 @@
+sample_id,source_text,translation
+S001,Unstoppable Force,막을 수 없는 힘
+S002,Nemean Gauntlets,네메안 건틀릿
+S003,Icarus Drifter Legs,이카루스 드리프터 다리갑옷
+S004,Light and Dark Saga Exotics,빛과 어둠의 사가 이국적 장비
+S005,Dreaming Spectrum,꿈꾸는 스펙트럼
+S006,Ana: Black Box,아나: 블랙박스
+S007,Transmatter Components,트랜스매터 구성요소
+S008,The Empty Tank: Legend,빈 탱크: 전설
+S009,Bounty Hunter: Tangled Shore,현상금 사냥꾼: 얽힌 해안
+S010,Swordmaster's Gauntlets,검술가의 건틀릿
+S011,Court of Blades (Wrathborn): Expert,칼날의 궁정(분노탄생): 숙련자
+S012,(Heroic) Dark Alliance,(영웅) 어둠의 동맹
+S013,Traveler's Judgment 5,여행자의 심판 5
+S014,Blackletter Greaves,블랙레터 경갑
+S015,Event Ticket,이벤트 티켓
+S016,Venom Unrivaled Strides,독보적인 맹독의 진격
+S017,Markov Chain,마르코프 체인
+S018,Imponent III,위압 III
+S019,Splicer Vandal's Armory,스플라이서 반달의 무기고
+S020,Phantasmic Fighter,환영의 전투사
+S021,The Ritual: Master,의식: 마스터
+S022,Vex Shock,벡스 쇼크
+S023,Weapons Intel,무기 정보
+S024,Cottontail Shell,토끼꼬리 껍질
+S025,Adds a nest of spiders to your transmat effects.,전송 효과에 거미 둥지를 추가합니다.
+S026,Kill each set of Glyphkeepers in Exhibition within 5 seconds of each other.,전시전에서 각 Glyphkeeper 무리를 서로 5초 이내에 처치하십시오.
+S027,Your equipped Scout Rifles and Pulse Rifles fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.,장착한 정찰 소총과 펄스 소총이 방어막 관통 탄환을 발사하며 [방어막 관통] 장벽 챔피언을 기절시킵니다.
+S028,"By aligning with the Festival Flame, you do more damage with Void power.",축제의 불꽃과 조율하면 공허의 힘으로 더 큰 피해를 줍니다.
+S029,Defeat combatants with precision final blows in Nightmare Hunts.,나이트메어 헌트에서 정밀한 결정타로 전투원을 처치하십시오.
+S030,Adds a phosphene appearance to your transmat effects.,전송 효과에 포스펜 외형을 추가합니다.
+S031,Final blows with this weapon fill the magazine of the equipped Energy weapon from reserves.,이 무기로 최후의 일격을 가하면 보관 중인 장착 중인 에너지 무기의 탄창이 채워집니다.
+S032,Greatly increases charge rate and guard resistance.,충전 속도와 가드 저항을 크게 증가시킵니다.
+S033,Faster ready and stow speed for Trace Rifles.,트레이스 라이플의 준비 및 보관 속도가 빨라집니다.
+S034,Dimensional Tithes,차원 십일조
+S035,Body shots landed with this weapon increase precision damage and aim assist for a short time. Body shots landed while the perk is active refresh the time.,이 무기로 몸샷을 적중하면 짧은 시간 동안 정밀 피해와 조준 보정이 증가합니다. 특성이 활성화된 동안 몸샷을 적중하면 지속 시간이 갱신됩니다.
+S036,Earn bonus Enhancement Prisms when completing ritual activities.,의식 활동을 완료하면 추가 강화 프리즘을 획득합니다.
+S037,Final blows with this weapon grant Super energy. This weapon gains bonus damage once your Super expires.,이 무기로 최후의 일격을 가하면 슈퍼 에너지를 얻습니다. 슈퍼가 종료되면 이 무기의 피해가 증가합니다.
+S038,Rapidly defeat combatants or Guardians with Auto Rifle final blows.,오토 라이플로 결정타를 날려 전투원이나 가디언을 빠르게 처치하십시오.
+S039,Summon your Throwing Hammer back to you.,던지는 망치를 다시 불러오십시오.
+S040,Overflows the magazine based on the number of rapid final blows before reloading. Improves reload.,재장전 전 빠르게 결정타를 날린 횟수에 따라 탄창이 넘쳐납니다. 재장전 속도가 향상됩니다.
+S041,+5 Class ▲,+5 클래스 ▲
+S042,Prosperity (Vanguard),번영 (선봉대)
+S043,Increased damage against Taken enemies.,Taken 적에게 주는 피해 증가.
+S044,Move faster while guarding with the Unbreakable shield. Damage blocked with Unbreakable is converted to grenade energy.,언브레이커블 방패로 방어하는 동안 더 빠르게 이동합니다. 언브레이커블로 막은 피해는 수류탄 에너지로 전환됩니다.
+S045,Healing grenades spawn a Restorative Turret. Healing allies occasionally spawns an Orb of Power.,치유 수류탄은 회복 포탑을 생성합니다. 아군을 치유하면 가끔 힘의 보주가 생성됩니다.
+S046,Improved Drengr's Lash. Gain Woven Mail when suspending targets.,드렝그의 채찍이 강화됩니다. 대상을 공중에 묶으면 직조 갑옷을 얻습니다.
+S047,"Equip this tier 5 weapon ornament to change the appearance of Burden of Guilt. Once you get an ornament, it's unlocked for all characters on your account.",이 5단계 무기 장식을 장착하면 Burden of Guilt의 외형이 바뀝니다. 한 번 장식을 획득하면 계정 내 모든 캐릭터에서 사용할 수 있습니다.
+S048,Heal yourself when using your class ability.  This modifier is only available during Solstice.,직업 능력을 사용할 때 자신을 치유하십시오.  이 수정자는 솔스티스 기간에만 사용할 수 있습니다.
+S049,Do you deserve it?,그럴 자격이 있나?
+S050,"""He is the closest thing I will ever have to a son.""",그는 내가 평생 아들처럼 여길 가장 가까운 존재다.
+S051,"""Under a sturdy enough helmet, no one can see how damaged you are."" —Reed-7, Exo Titan","“튼튼한 헬멧만 있으면, 네가 얼마나 망가졌는지 아무도 볼 수 없지.” —리드-7, 엑소 타이탄"
+S052,"""I have foreseen the work that will bring this system together. I'll need your strength."" —Emperor Calus",이 체계를 하나로 묶어낼 일을 나는 이미 내다보았다. 네 힘이 필요하다. —칼루스 황제
+S053,"Do you believe in the Gaiaforms, the energies within planets?","당신은 행성 안에 깃든 에너지, 가이아폼을 믿습니까?"
+S054,"""Many regard the Hive as mere monsters. But they are so much more. Their minds are sharp, like their blades."" —Eris Morn",많은 이들이 하이브를 그저 괴물로 여긴다. 하지만 그들은 그보다 훨씬 더한 존재다. 그들의 정신은 그들의 칼날처럼 날카롭다. —에리스 모른
+S055,"At the edge of the universe, I stared into the infinite deep. It stared back, and was pleased. I would become the herald of its victory, and bear witness for all creation.","우주의 끝에서, 나는 무한한 심연을 응시했다. 심연도 나를 응시했고, 그리고 흡족해했다. 나는 그 승리의 전령이 되어, 모든 창조물 앞에서 그 증인이 되리라."
+S056,"A little bolder. A little more focus. You are almost ready… to cast a Shadow. —Calus, Emperor of the Cabal","조금 더 대담하게. 조금 더 집중해서. 이제 거의 준비되었다… 그림자를 드리울 때가. —칼루스, 카발의 황제"
+S057,"""We are what we survive. They will not be the Guardians."" —Lord Saladin",우리는 살아남은 존재다. 그들은 수호자가 되지 못할 것이다. —살라딘 경
+S058,"""There is a place where we can remember who we are."" —Imogen Rife","""우리가 누구인지 기억할 수 있는 곳이 있다."" —이모젠 라이프"
+S059,"""There is an end to everything."" —Emissary of the Nine","""모든 것에는 끝이 있다."" —나인의 사절"
+S060,"""Yours, until the last flame dies and all words have been spoken."" —Shin Malphur to you, as you journey forth into the unknown","마지막 불꽃이 꺼지고 모든 말이 다해질 때까지, 이것은 네 것이다. —신 말퍼가, 네가 미지로 나아갈 때 너에게 전하는 말"
+S061,"""I know you."" —Lord Felwinter","""너를 알고 있다."" —펠윈터 경"
+S062,"""Some speculate that the radiolarian fluid is the last vestige of a biological life-form that became the Vex."" —Sister Faora, ""Theories on the Vex""","일부는 방사충 유체가 벡스가 된 생명체의 마지막 흔적이라고 추측한다. —파오라 수녀, 「벡스에 대한 이론」"
+S063,"""Have you ever stared into the green soulfire flame? There is terror, but also… something warm."" —Eris Morn","""초록빛 영혼불꽃을 바라본 적이 있나? 공포가 있지만, 동시에… 무언가 따뜻한 것도 있지."" —에리스 모른"
+S064,"""Osiris said that he started to pity the Red Legion, getting trapped in here for infinite eternities. I think they're getting exactly what they deserve."" —Sagira","""오시리스는 레드 군단이 이곳에 갇혀 끝없는 영겁을 보내게 된 걸 보고 연민을 느끼기 시작했다고 했어. 하지만 난 그들이 마땅히 받아야 할 걸 정확히 받고 있다고 생각해."" —사기라"
+S065,"""I am lightning, energy unbound, but directed."" The Splicer felt the Arc energy crackling around him and joined with it.","""나는 번개다. 속박되지 않은 에너지이자, 그러나 방향을 가진 힘이다."" 스플라이서는 자신을 감싸며 지직거리는 아크 에너지를 느끼고, 그것과 하나가 되었다."
+S066,"A TRESPASSER you are not welcome here HOW DID YOU FIND US? ""She sent me."" You are not your queen. A PUPPET defined by scars We have no need of you. WE HAVE OUR OWN PUPPETS L E T H E R S P E A K ""I came to discuss the future.""","침입자여, 여긴 네가 있을 곳이 아니다. 어떻게 우리를 찾아냈지? ""그녀가 날 보냈다."" 너는 네 여왕이 아니다. 상처로 규정된 꼭두각시. 우린 네가 필요 없다. 우리에겐 우리만의 꼭두각시가 있다. 그에게 말하게 하라. ""나는 미래를 논의하러 왔다."""
+S067,"Sometimes it makes a guy feel better to make fun of someone way worse off than he is. He knows it's a mistake soon as he sets eyes on the giant robot face, though. Maybe somewhere else. He turns and goes, ignoring the dramatic monologue already kicking off behind him.","가끔은 자기보다 훨씬 처지가 안 좋은 누군가를 놀려야 마음이 좀 나아지는 법이다. 하지만 거대한 로봇 얼굴을 보는 순간, 그게 잘못된 생각이었음을 그는 곧바로 깨닫는다. 그래도 여기 말고 다른 데서나 해야겠지. 그는 몸을 돌려 떠나고, 뒤에서 이미 시작된 장황한 독백은 무시한다."
+S068,this will not reach you anything a knife writes would never but no more speaking that time is over Im sorry I see the waves I see the ship sinking the sky is filled with shadow I love you I love you Im alone what hurts me is you are too,이것은 너에게 아무것도 닿게 하지 못할 것이다. 칼이 써 내려간 것은 결코 그럴 수 없지. 하지만 이제 더는 말하지 않겠다. 그 시간은 끝났다. 미안하다. 나는 파도를 본다. 나는 배가 가라앉는 것을 본다. 하늘은 그림자로 가득하다. 사랑한다. 사랑한다. 나는 혼자다. 나를 아프게 하는 것은 너도 그렇다는 것이다.
+S069,"Someone else finds him there. He sees himself out, mouth stinging as he takes the stairs. That's it, then. There's nothing for him here. And he was a fool to think there was. Time to go.",누군가가 그를 그곳에서 발견한다. 그는 계단을 오르며 입안이 얼얼한 채 스스로 물러난다. 이제 끝이다. 그에게 이곳에 남은 것은 아무것도 없다. 그리고 그런 게 있을 거라 생각한 자신이 어리석었다. 갈 시간이다.
+S070,"""Even in the dark, I still feel the spark of life within me."" His Gauntlet roared as he drew a wide circle in the air, and the rains began to fall.","""어둠 속에서도, 나는 여전히 내 안에 깃든 생명의 불꽃을 느낀다."" 그가 허공에 크게 원을 그리자 건틀릿이 포효했고, 비가 내리기 시작했다."
+S071,"[[Neuron-Sheath key] [Run through, Time and time again] [In Ritual] [In Ceremony] [In Vital Sequence] [Image//History] [Vision//Grace] [Sight//Clairvoyance] [War divinely conjured] [Canvassed data bits] [Symphonic calculation] [Magnitude manufactured] [Order Incomplete]]",[[뉴런-시스 열쇠] [거듭 달려 나가라] [의식 중] [제의 중] [생명 순환 중] [이미지//역사] [비전//은총] [시야//천리안] [신성하게 불러낸 전쟁] [수집된 데이터 비트] [교향적 계산] [조작된 규모] [질서 미완성]]
+S072,"""There is nothing here, and I have no fear of nothing."" The Splicer saw herself in a hundred places at once, then chose her favorite.","""여기엔 아무것도 없어. 그리고 나는 아무것도 두렵지 않아."" 스플라이서는 자신을 백 곳에서 동시에 보았다가, 가장 마음에 드는 모습을 골랐다."
+S073,Few weapons have withstood the test of time longer than the trusty SUROS Regime. This is Golden Age tech brought to life by the fastidious engineers at SUROS. Its smart-matter frame is prized among Guardians for both efficiency and rarity. Some things never fall out of fashion.,믿음직한 SUROS Regime만큼 오랜 세월의 시험을 견뎌 온 무기는 드뭅니다. 이는 SUROS의 꼼꼼한 기술자들이 생명을 불어넣은 황금기 기술입니다. 그 스마트 매터 프레임은 효율성과 희소성 모두로 인해 수호자들 사이에서 귀하게 여겨집니다. 어떤 것들은 결코 유행에서 벗어나지 않습니다.
+S074,we were young once YOU WENT MAD TRYING TO UNDERSTAND W E W E N T M A D T R Y I N G T O S P E A K This doesn't matter. when you are ready we will take it from you AND YOU WILL BE GLAD OF IT,우린 한때 젊었지 네가 미쳐 버릴 만큼 이해하려 애썼어 우린 말하려 애쓰다 미쳐 버렸지 이건 중요하지 않다. 네가 준비되면 우리가 그것을 가져가겠다 그리고 너는 그걸 기꺼워하게 될 것이다
+S075,"We treated the ship like its name, like one of the Guardians of old. But I swear to you that Sparrows have personalities, even spirits. I know that sounds crazy, but I believe that. AA's name was cold, and the Sparrow was cold. You couldn't warm it up. But boy it could fly.","우린 그 함선을 그 이름처럼, 옛날의 가디언들 중 하나처럼 대했어. 하지만 스패로우에도 성격이 있고, 심지어 혼까지 있다고 맹세할 수 있어. 미친 소리처럼 들리겠지만, 난 그렇게 믿어. AA라는 이름은 차가웠고, 그 스패로우도 차가웠지. 아무리 해도 따뜻해지지 않았어. 그래도, 정말 날아다니는 건 끝내줬지."
+S076,"THE RED SHIPS ENTER THE AIR IS HEAVY. Now, when you move, you can actually FEEL the weight of the world. This weight is a gift. you finally have our attention","붉은 함선들이 들어선다. 공기는 무겁다. 이제 네가 움직일 때, 세상의 무게를 실제로 느낄 수 있다. 이 무게는 축복이다. 마침내 네가 우리의 주의를 끌었다."
+S077,"""I am alight, but I will not be consumed."" The Splicer envisioned the fire in his hand, and he closed his fist around it.","""나는 불타오르고 있지만, 삼켜지지는 않으리라."" 스플라이서는 손안의 불꽃을 떠올렸고, 그것을 움켜쥐었다."
+S078,"You sought us out. IN SOME SMALL WAY, YOU FOUND US. But discovery always has a price. With curiosity comes consequence. S H E I S N O T R E A D Y SEEK JUDGMENT. GROW.","당신이 우리를 찾아냈다. 아주 작은 방식으로든, 너는 우리를 발견했다. 그러나 발견에는 언제나 대가가 따른다. 호기심에는 그에 따른 결과가 뒤따른다. 그녀는 아직 준비되지 않았다. 심판을 구하라. 성장하라."
+S079,"the edge of a system frays like string PATHS ARE CARVED BY MORE THAN RANGERS AND WAYFINDERS Out there in the remnants of old, the echo hums. W E H A D B E E N V I E W E D B E F O R E REMEMBER? DO YOU?","시스템의 끝자락은 실처럼 해어진다 길은 레인저와 웨이파인더만이 새기는 것이 아니다 오래된 것의 잔해 속에서, 메아리가 웅웅거린다. 우리는 전에 보았었다 기억하는가? 너는?"
+S080,"Getting out in the woods could clear his head. Maybe he shouldn't go after all. Familiar energy readings. Not Darkness, not Light, but the in-between stuff. Sterile neutrinos. Makes him think of a time way back when: Moondust and him. And the arrival of the Pyramid fleet…","숲으로 나가면 머리가 좀 맑아질지도 몰라. 어쩌면 아예 가지 않는 편이 나을지도 모르지. 익숙한 에너지 수치다. 어둠도, 빛도 아닌 그 중간의 것. 무균 중성미자. 아주 오래전, 문더스트와 자신을 떠올리게 한다. 그리고 피라미드 함대의 도착…"

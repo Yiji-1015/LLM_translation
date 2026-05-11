@@ -1,0 +1,30 @@
+source_character,relation,target_character,evidence,confidence,source_tag
+Cayde-6,forgives,Crow,"Cayde-6 forgives Crow and affirms his legitimacy as Hunter Vanguard.",high,deep_research_2026_04_12
+Cayde-6,endorses_leadership,Crow,"Cayde-6 recognizes Crow's Vanguard qualification.",high,deep_research_2026_04_12
+Zavala,co_leads_with,Ikora Rey,"Vanguard leadership remains centered on Zavala and Ikora.",high,deep_research_2026_04_12
+Ikora Rey,negotiates_with,Lodi,"Ikora conducts diplomatic exchanges with Lodi.",high,deep_research_2026_04_12
+Caiatl,allied_with,Vanguard,"Imperial Cabal maintains military alliance with Vanguard.",high,deep_research_2026_04_12
+Mara Sov,sibling_of,Crow,"Mara and Crow remain sibling figures with strategic distance.",high,deep_research_2026_04_12
+Mara Sov,politically_cooperates_with,Vanguard,"Mara continues strategic support while preserving autonomy.",medium,deep_research_2026_04_12
+Mithrax,friend_of,Saint-14,"Mithrax and Saint-14 are in a close trust relationship.",high,deep_research_2026_04_12
+Eido,child_of,Mithrax,"Eido is Mithrax's daughter and represents generational divergence.",high,deep_research_2026_04_12
+Eido,associated_with,Riliks,"Eido shows risky social proximity to Riliks/Piker sphere.",medium,deep_research_2026_04_12
+Petra Venj,allied_with,Crow,"Petra eventually accepts Crow as an independent ally.",medium,deep_research_2026_04_12
+Savathun,sibling_of,Xivu Arath,"Savathun and Xivu Arath remain rival siblings.",high,deep_research_2026_04_12
+Savathun,enemy_of,Vanguard,"Savathun shifts back toward open hostility.",high,deep_research_2026_04_12
+Xivu Arath,sibling_of,Oryx,"Xivu Arath's identity remains tied to Oryx lineage conflict.",medium,deep_research_2026_04_12
+Eris Morn,romantic_partner_of,The Drifter,"Eris and Drifter are depicted as explicit partners.",high,deep_research_2026_04_12
+The Drifter,emotional_anchor_of,Eris Morn,"Drifter stabilizes Eris during high-risk paracausal operations.",high,deep_research_2026_04_12
+Lodi,cooperates_with,Ikora Rey,"Lodi collaborates with Ikora for Nine-related investigation.",high,deep_research_2026_04_12
+Lodi,cooperates_with,The Drifter,"Lodi forms an independent search team including Drifter.",medium,deep_research_2026_04_12
+Lodi,cooperates_with,Eris Morn,"Lodi forms an independent search team including Eris.",medium,deep_research_2026_04_12
+Lodi,cooperates_with,Eido,"Lodi's search efforts include Eido participation.",medium,deep_research_2026_04_12
+Lodi,cooperates_with,Aunor Mahal,"Lodi's search efforts include Aunor participation.",medium,deep_research_2026_04_12
+VI,supports,Premier Lume,"Nine member VI supports Barant Imperium with advanced tech.",high,deep_research_2026_04_12
+VI,supports,Dredgen Bael,"Nine member VI enables Bael's force development.",high,deep_research_2026_04_12
+Dredgen Bael,allied_with,Premier Lume,"Bael and Lume are tactical allies with internal friction.",medium,deep_research_2026_04_12
+Dredgen Bael,enemy_of,Vanguard,"Bael recruits hostile apprentices and attacks Guardian interests.",high,deep_research_2026_04_12
+Aunor Mahal,temporary_ally_of,The Drifter,"Aunor and Drifter cooperate against Bael-level threats.",high,deep_research_2026_04_12
+Riliks,leader_of,Piker,"Riliks is a leading figure in Piker syndicate.",high,deep_research_2026_04_12
+Premier Lume,leader_of,Barant Imperium,"Lume commands Barant Imperium insurgent structure.",high,deep_research_2026_04_12
+Caiatl,enemy_of,Barant Imperium,"Barant Imperium emerges against Caiatl's strategic line.",high,deep_research_2026_04_12
