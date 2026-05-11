@@ -406,6 +406,20 @@ def csv_download_bytes(df: pd.DataFrame) -> bytes:
     return out.getvalue().encode("utf-8-sig")
 
 
+def dataset_csv_download_bytes(rows_df: pd.DataFrame) -> bytes:
+    out = io.StringIO()
+    df = rows_df.rename(columns={"row_id": "id"}).copy()
+    for column in ["id", "tag", "source", "human_translation", "context", "speaker", "listener", "notes"]:
+        if column not in df.columns:
+            df[column] = ""
+    df[["id", "tag", "source", "human_translation", "context", "speaker", "listener", "notes"]].to_csv(
+        out,
+        index=False,
+        encoding="utf-8-sig",
+    )
+    return out.getvalue().encode("utf-8-sig")
+
+
 def short_label(text: str, limit: int = 56) -> str:
     text = str(text)
     return text if len(text) <= limit else f"{text[:limit - 1]}..."
@@ -716,6 +730,13 @@ def render_work_tab(supabase):
     if rows_df.empty:
         st.warning("Selected dataset has no rows.")
         return
+
+    st.download_button(
+        "Download selected dataset CSV",
+        data=dataset_csv_download_bytes(rows_df),
+        file_name=f"{selected_label.split(' / ')[0]}_dataset.csv",
+        mime="text/csv",
+    )
 
     with st.expander("Create a new LLM run", expanded=False):
         render_translation_controls(supabase, rows_df, dataset_id)
