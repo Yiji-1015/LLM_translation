@@ -5,3 +5,4 @@ secrets.toml
 .env
 .venv/
 venv/
+data

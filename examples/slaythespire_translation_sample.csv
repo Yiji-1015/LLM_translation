@@ -1,0 +1,301 @@
+﻿id,tag,source,human_translation,context,speaker,listener,notes
+slaythespire_0001,achievements:NAMES,Shrug It Off,털어내기,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=0
+slaythespire_0002,achievements:NAMES,Purity,순수,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=1
+slaythespire_0003,achievements:NAMES,Come At Me,덤벼봐,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=2
+slaythespire_0004,achievements:NAMES,The Pact,조약,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=3
+slaythespire_0005,achievements:NAMES,Adrenaline,아드레날린,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=4
+slaythespire_0006,achievements:NAMES,Powerful,강력,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=5
+slaythespire_0007,achievements:NAMES,Jaxxed,약물 중독,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=6
+slaythespire_0008,achievements:NAMES,Impervious,무적,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=7
+slaythespire_0009,achievements:NAMES,Barricaded,바리케이드,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=8
+slaythespire_0010,achievements:NAMES,Catalyst,촉매,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=9
+slaythespire_0011,achievements:NAMES,Plague,역병,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=10
+slaythespire_0012,achievements:NAMES,Ninja,닌자,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=11
+slaythespire_0013,achievements:NAMES,Infinity,무한,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=12
+slaythespire_0014,achievements:NAMES,You Are Nothing,별 것 아니네,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=13
+slaythespire_0015,achievements:NAMES,Perfect,완벽,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=14
+slaythespire_0016,achievements:NAMES,The Guardian,수호자,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=15
+slaythespire_0017,achievements:NAMES,The Ghost,유령,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=16
+slaythespire_0018,achievements:NAMES,The Boss,지배자,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=17
+slaythespire_0019,achievements:NAMES,The Automaton,자동인형,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=18
+slaythespire_0020,achievements:NAMES,The Collector,수집가,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=19
+slaythespire_0021,achievements:NAMES,The Champion,투사,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=20
+slaythespire_0022,achievements:NAMES,The Crow,까마귀,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=21
+slaythespire_0023,achievements:NAMES,The Shapes,도형들,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=22
+slaythespire_0024,achievements:NAMES,The Time Eater,시간 포식자,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=23
+slaythespire_0025,achievements:NAMES,Ruby,루비,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=24
+slaythespire_0026,achievements:NAMES,Emerald,에메랄드,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=25
+slaythespire_0027,achievements:NAMES,Hidden,숨겨짐,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=26
+slaythespire_0028,achievements:NAMES,Who Needs Relics?,유물이 필요한가?,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=27
+slaythespire_0029,achievements:NAMES,Speed Climber,쾌속 등반가,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=28
+slaythespire_0030,achievements:NAMES,Ascend 0,승천 0,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=29
+slaythespire_0031,achievements:NAMES,Ascend 10,승천 10,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=30
+slaythespire_0032,achievements:NAMES,Minimalist,미니멀리스트,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=31
+slaythespire_0033,achievements:NAMES,Ooh Donut!,오오... 도넛!,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=32
+slaythespire_0034,achievements:NAMES,Sapphire,사파이어,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=33
+slaythespire_0035,achievements:NAMES,Common Sense,일반 상식,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=34
+slaythespire_0036,achievements:NAMES,Focused,밀집된,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=35
+slaythespire_0037,achievements:NAMES,Neon,네온,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=36
+slaythespire_0038,achievements:NAMES,Energy is Overrated,에너지가 초과되었습니다,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=37
+slaythespire_0039,achievements:NAMES,My Lucky Day,운수 좋은 날,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=38
+slaythespire_0040,achievements:NAMES,The Transient,과도자,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=39
+slaythespire_0041,achievements:NAMES,Ascend 20,승천 20,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=40
+slaythespire_0042,achievements:NAMES,Ruby+,루비+,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=41
+slaythespire_0043,achievements:NAMES,Emerald+,에메랄드+,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=42
+slaythespire_0044,achievements:NAMES,Sapphire+,사파이어+,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=43
+slaythespire_0045,achievements:NAMES,The End?,엔딩?,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=44
+slaythespire_0046,achievements:NAMES,Eternal One,불멸자,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=45
+slaythespire_0047,achievements:NAMES,Amethyst,자수정,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=46
+slaythespire_0048,achievements:NAMES,Amethyst+,자수정+,AchievementGrid/NAMES,,,game=slaythespire; file=achievements_merged.json; index=47
+slaythespire_0049,achievements:TEXT,Win a battle with 1 HP remaining.,체력을 1 남기고 전투에서 승리하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=0
+slaythespire_0050,achievements:TEXT,"Have 3 or fewer cards in hand, draw, and discard pile combined.","손패, 뽑을 카드 더미, 버린 카드 더미를 합쳐서 카드가 3장 이하가 되도록 하십시오.",AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=1
+slaythespire_0051,achievements:TEXT,Win a combat without playing an Attack.,공격 카드를 사용하지 않고 전투에서 승리하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=2
+slaythespire_0052,achievements:TEXT,Exhaust 20 cards in a single combat.,한 번의 전투에서 카드를 20 장 소멸시키십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=3
+slaythespire_0053,achievements:TEXT,Have 9 Energy during a single turn of combat.,전투 중 9의 에너지를 보유하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=4
+slaythespire_0054,achievements:TEXT,Have 10 or more buffs during combat.,전투 중 10개 이상의 이로운 효과를 보유하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=5
+slaythespire_0055,achievements:TEXT,Have 50 or more Strength during combat.,전투 중 50 이상의 힘을 보유하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=6
+slaythespire_0056,achievements:TEXT,Have 99 or more Block during combat.,전투 중 99 이상의 방어도를 보유하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=7
+slaythespire_0057,achievements:TEXT,Have 999 Block during combat.,전투 중 999의 방어도를 보유하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=8
+slaythespire_0058,achievements:TEXT,Apply 99 or more Poison on a single enemy.,적 하나에게 99 이상의 중독을 부여하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=9
+slaythespire_0059,achievements:TEXT,Defeat 3 enemies with Poison in a single combat.,한 번의 전투에서 적 3 마리를 중독으로 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=10
+slaythespire_0060,achievements:TEXT,Play 10 Shivs in a single turn.,한 턴 동안 10장 이상의 단도 카드를 사용하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=11
+slaythespire_0061,achievements:TEXT,Play 25 cards in a single turn.,한 턴 동안 카드를 25장 사용하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=12
+slaythespire_0062,achievements:TEXT,Defeat a boss on turn 1.,첫 턴 내에 보스를 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=13
+slaythespire_0063,achievements:TEXT,Defeat a boss without taking any damage.,피해를 한 번도 받지 않은 채로 보스를 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=14
+slaythespire_0064,achievements:TEXT,Defeated the Guardian.,수호자를 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=15
+slaythespire_0065,achievements:TEXT,Defeated Hexaghost.,육각령을 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=16
+slaythespire_0066,achievements:TEXT,Defeated the Slime Boss.,슬라임 지배자를 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=17
+slaythespire_0067,achievements:TEXT,Defeated the Bronze Automaton.,청동 자동인형을 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=18
+slaythespire_0068,achievements:TEXT,Defeated the Collector.,수집가를 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=19
+slaythespire_0069,achievements:TEXT,Defeated the Champ.,투사를 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=20
+slaythespire_0070,achievements:TEXT,Defeated the Awakened One.,깨어난 자를 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=21
+slaythespire_0071,achievements:TEXT,Defeated Donu & Deca.,도누 & 데카를 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=22
+slaythespire_0072,achievements:TEXT,Defeated the Time Eater.,시간포식자를 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=23
+slaythespire_0073,achievements:TEXT,Beat the game with the Ironclad.,아이언클래드로 게임을 클리어하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=24
+slaythespire_0074,achievements:TEXT,Beat the game with the Silent.,사일런트로 게임을 클리어하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=25
+slaythespire_0075,achievements:TEXT,Details for this achievement will be revealed once unlocked.,이 업적에 대한 세부사항은 해금한 후에 밝혀집니다.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=26
+slaythespire_0076,achievements:TEXT,Beat the game with a single relic.,유물을 1개만 가진 채로 승리하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=27
+slaythespire_0077,achievements:TEXT,Beat the game in under 20 minutes.,20분 이내에 게임을 클리어하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=28
+slaythespire_0078,achievements:TEXT,Unlock Ascension mode.,승천 모드를 해금하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=29
+slaythespire_0079,achievements:TEXT,Complete Ascension Level 10.,승천 10단계를 클리어하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=30
+slaythespire_0080,achievements:TEXT,Beat the game with a 5 card deck or smaller.,덱의 카드가 5장 이하인 상태로 게임을 클리어하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=31
+slaythespire_0081,achievements:TEXT,Finish Donu with a Feed.,포식을 사용해 도누를 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=32
+slaythespire_0082,achievements:TEXT,Beat the game with the Defect.,디펙트로 게임을 클리어하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=33
+slaythespire_0083,achievements:TEXT,Beat the game with a deck containing no uncommons or rares.,일반 카드로만 구성된 덱으로 게임을 클리어하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=34
+slaythespire_0084,achievements:TEXT,Have 25 or more Focus during combat.,전투 중 25 이상의 밀집 을 얻으십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=35
+slaythespire_0085,achievements:TEXT,Channel 9 Plasma in a single turn.,한 턴에 플라즈마 를 9 번 영창하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=36
+slaythespire_0086,achievements:TEXT,Play 10 or more cost 0 cards in a single turn.,한 턴에 비용이 0인 카드를 10번 이상 사용하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=37
+slaythespire_0087,achievements:TEXT,Win a Daily Climb.,일일 도전을 완료하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=38
+slaythespire_0088,achievements:TEXT,Defeat the Transient before it fades away.,과도자가 사라지기 전에 처치하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=39
+slaythespire_0089,achievements:TEXT,Complete Ascension Level 20.,승천 20단계를 클리어하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=40
+slaythespire_0090,achievements:TEXT,Complete the Ending with the Ironclad.,아이언클래드로 엔딩을 보십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=41
+slaythespire_0091,achievements:TEXT,Complete the Ending with the Silent.,사일런트로 엔딩을 보십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=42
+slaythespire_0092,achievements:TEXT,Complete the Ending with the Defect.,디펙트로 엔딩을 보십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=43
+slaythespire_0093,achievements:TEXT,"Complete the Ending with the Ironclad, Silent, and Defect.","아이언클래드, 사일런트, 디펙트로 엔딩을 보십시오.",AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=44
+slaythespire_0094,achievements:TEXT,Obtain all other Achievements.,다른 모든 업적을 달성하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=45
+slaythespire_0095,achievements:TEXT,Beat the game with the Watcher.,와쳐로 게임을 클리어하십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=46
+slaythespire_0096,achievements:TEXT,Complete the Ending with the Watcher.,와쳐로 엔딩을 보십시오.,AchievementGrid/TEXT,,,game=slaythespire; file=achievements_merged.json; index=47
+slaythespire_0097,achievements:TEXT,Total Playtime: ,총 플레이 시간: ,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=0
+slaythespire_0098,achievements:TEXT,Total Victories: #y,승리한 횟수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=1
+slaythespire_0099,achievements:TEXT,Total Deaths: #y,죽은 횟수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=2
+slaythespire_0100,achievements:TEXT,Total Floors Climbed: #y,지금까지 오른 층 수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=3
+slaythespire_0101,achievements:TEXT,Total Bosses Slain: #y,처치한 보스 수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=4
+slaythespire_0102,achievements:TEXT,Total Enemies Slain: #y,처치한 적 수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=5
+slaythespire_0103,achievements:TEXT,Cards Discovered: #y,찾은 카드의 개수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=7
+slaythespire_0104,achievements:TEXT,Cards Unlocked: #y,해금한 카드의 개수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=8
+slaythespire_0105,achievements:TEXT,Relics Discovered: #y,발견한 유물의 개수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=9
+slaythespire_0106,achievements:TEXT,Relics Unlocked: #y,해금한 유물의 개수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=10
+slaythespire_0107,achievements:TEXT,Highest Floor: #y,최고 층수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=11
+slaythespire_0108,achievements:TEXT,Highest Daily: #y,최고 일일 도전 점수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=12
+slaythespire_0109,achievements:TEXT,Fastest Victory: ,승리한 최단 시간: ,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=13
+slaythespire_0110,achievements:TEXT,Defeated the ,처치된 보스: ,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=14
+slaythespire_0111,achievements:TEXT,: #gYes NL ,: #g예 NL ,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=15
+slaythespire_0112,achievements:TEXT,: #rNo NL ,: #r아니오 NL ,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=16
+slaythespire_0113,achievements:TEXT,Victories: #y,승리 횟수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=17
+slaythespire_0114,achievements:TEXT,Deaths: #y,죽은 횟수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=18
+slaythespire_0115,achievements:TEXT,Floors Climbed: #y,오른 층 수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=19
+slaythespire_0116,achievements:TEXT,Bosses Slain: #y,처치한 보스 수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=20
+slaythespire_0117,achievements:TEXT,Enemies Slain: #y,처치한 적 수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=21
+slaythespire_0118,achievements:TEXT,Best Win Streak: #y,최고 연속 클리어 : #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=22
+slaythespire_0119,achievements:TEXT,Highest Score: #y,최고 점수: #y,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=23
+slaythespire_0120,achievements:TEXT,%02d:%02d:%02d,%02d:%02d:%02d,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=24
+slaythespire_0121,achievements:TEXT,%02d:%02d,%02d:%02d,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=25
+slaythespire_0122,achievements:TEXT,#y%02dh #y%02dm #y%02ds,#y%02dh #y%02dm #y%02ds,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=26
+slaythespire_0123,achievements:TEXT,#y%02dm #y%02ds,#y%02dm #y%02ds,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=27
+slaythespire_0124,achievements:TEXT,%01d:%02d:%02d,%01d:%02d:%02d,CharStat/TEXT,,,game=slaythespire; file=achievements_merged.json; index=28
+slaythespire_0125,achievements:NAMES,Eternal One,불멸자,PS4Trophy/NAMES,,,game=slaythespire; file=achievements_merged.json; index=0
+slaythespire_0126,achievements:TEXT,Obtain all other Trophies.,다른 모든 트로피들을 획득하십시오.,PS4Trophy/TEXT,,,game=slaythespire; file=achievements_merged.json; index=0
+slaythespire_0127,achievements:NAMES,#yOverall #yStatistics,#y전체 #y통계,StatsScreen/NAMES,,,game=slaythespire; file=achievements_merged.json; index=0
+slaythespire_0128,achievements:NAMES,#yAchievements,#y업적,StatsScreen/NAMES,,,game=slaythespire; file=achievements_merged.json; index=1
+slaythespire_0129,achievements:NAMES,#rThe #rIronclad,#r아이언클래드,StatsScreen/NAMES,,,game=slaythespire; file=achievements_merged.json; index=2
+slaythespire_0130,achievements:NAMES,#gThe #gSilent,#g사일런트,StatsScreen/NAMES,,,game=slaythespire; file=achievements_merged.json; index=3
+slaythespire_0131,achievements:NAMES,#bThe #bDefect,#b디펙트,StatsScreen/NAMES,,,game=slaythespire; file=achievements_merged.json; index=4
+slaythespire_0132,achievements:NAMES,#pThe #pWatcher,#p와쳐,StatsScreen/NAMES,,,game=slaythespire; file=achievements_merged.json; index=5
+slaythespire_0133,achievements:TEXT,Return,돌아가기,StatsScreen/TEXT,,,game=slaythespire; file=achievements_merged.json; index=0
+slaythespire_0134,blights:DESCRIPTION,"Whenever you defeat a Boss, obtain #b",보스를 처치할 때마다 #b,Accursed/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0135,blights:DESCRIPTION, random #yCurses., 장의 무작위 #y저주 카드를 얻습니다.,Accursed/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=1
+slaythespire_0136,blights:NAME,Accursed,저주받음,Accursed/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0137,blights:DESCRIPTION,Lose #b,최대 체력을 #b,BlightedDurian/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0138,blights:DESCRIPTION,% of your Max HP.,% 잃습니다.,BlightedDurian/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=1
+slaythespire_0139,blights:NAME,Post-Durian,부패한 두리안,BlightedDurian/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0140,blights:DESCRIPTION,Enemies deal #b,적이 주는 피해가 #b,DeadlyEnemies/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0141,blights:DESCRIPTION,% more damage.,% 증가합니다.,DeadlyEnemies/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=1
+slaythespire_0142,blights:NAME,Spear of Blight,역병의 창,DeadlyEnemies/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0143,blights:DESCRIPTION,You can no longer increase your Max HP. All healing is halved.,더 이상 최대 체력이 증가하지 않습니다. 모든 회복의 효율이 절반으로 줄어듭니다.,FullBelly/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0144,blights:NAME,Muzzle,입마개,FullBelly/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0145,blights:DESCRIPTION,Enemies start combat with #b,전투 시작 시 적이 #b,GraspOfShadows/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0146,blights:DESCRIPTION, #yIntangible., #y불가침을 얻습니다.,GraspOfShadows/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=1
+slaythespire_0147,blights:NAME,Hauntings,트라우마,GraspOfShadows/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0148,blights:DESCRIPTION,"Upon pickup, obtain #b",획득 시 #r긍지를 #b,GrotesqueTrophy/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0149,blights:DESCRIPTION, #rPrides., 장 얻습니다.,GrotesqueTrophy/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=1
+slaythespire_0150,blights:DESCRIPTION,Your Pride is twisted...,당신의 긍지는 뒤틀려있습니다...,GrotesqueTrophy/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=2
+slaythespire_0151,blights:NAME,Grotesque Trophy,기괴한 트로피,GrotesqueTrophy/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0152,blights:DESCRIPTION,Enemies start combat with #b,전투 시작 시 적이 #y인공물을 #b,MetallicRebirth/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0153,blights:DESCRIPTION," #yArtifact, #b"," , #y판금 #y갑옷을 #b",MetallicRebirth/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=1
+slaythespire_0154,blights:DESCRIPTION," #yPlated #yArmor, and #b"," , #y재생을 #b",MetallicRebirth/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=2
+slaythespire_0155,blights:DESCRIPTION, #yRegenerate., 얻습니다.,MetallicRebirth/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=3
+slaythespire_0156,blights:NAME,Ancient Augmentation,고대의 증강,MetallicRebirth/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0157,blights:DESCRIPTION,Treasure rooms in future acts are replaced by Elites. Elites no longer drop relics.,다음 막부터 등장하는 보물 방이 엘리트로 대체됩니다. 더 이상 엘리트에게서 유물을 얻을 수 없습니다.,MimicInfestation/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0158,blights:NAME,Mimic Infestation,흉내쟁이 감염,MimicInfestation/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0159,blights:DESCRIPTION,Draw #b,매 턴 카드를 #b,Scatterbrain/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0160,blights:DESCRIPTION, less card a turn., 장 덜 뽑습니다.,Scatterbrain/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=1
+slaythespire_0161,blights:NAME,Scatterbrain,주의 산만,Scatterbrain/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0162,blights:DESCRIPTION,You cannot play more than #b,매 턴 #b,TimeMaze/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0163,blights:DESCRIPTION, cards per turn., 장의 카드만 사용할 수 있습니다.,TimeMaze/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=1
+slaythespire_0164,blights:DESCRIPTION,I can only play up to NL #r,카드 사용 제한에 도달했어: NL #r,TimeMaze/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=2
+slaythespire_0165,blights:NAME,Time Maze,시간의 미로,TimeMaze/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0166,blights:DESCRIPTION,Enemies have #b,적들의 체력이 #b,ToughEnemies/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0167,blights:DESCRIPTION,% more HP.,% 증가합니다.,ToughEnemies/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=1
+slaythespire_0168,blights:NAME,Shield of Blight,역병의 방패,ToughEnemies/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0169,blights:DESCRIPTION,"At the end of your turn, add #b",내 턴 종료 시 뽑을 카드 더미 맨 위에 #b,TwistingMind/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0170,blights:DESCRIPTION, random Status card to the top of your draw pile., 장의 무작위 상태이상 카드를 놓습니다.,TwistingMind/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=1
+slaythespire_0171,blights:NAME,Twisting Mind,뒤틀린 정신,TwistingMind/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0172,blights:DESCRIPTION,Gain #b,매 턴 시작 시 [E] 를 #b,VoidEssence/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0173,blights:DESCRIPTION, less [E] at the start of each turn., 적게 얻습니다.,VoidEssence/DESCRIPTION,,,game=slaythespire; file=blights_merged.json; index=1
+slaythespire_0174,blights:NAME,Void Essence,공허의 본질,VoidEssence/NAME,,,game=slaythespire; file=blights_merged.json; index=0
+slaythespire_0175,cards:DESCRIPTION,"Whenever you play a card, deal !M! damage to ALL enemies.",카드를 사용할 때마다 적 전체에게 피해를 !M! 줍니다.,A Thousand Cuts/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0176,cards:NAME,A Thousand Cuts,능지처참,A Thousand Cuts/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0177,cards:DESCRIPTION,*Shivs deal !M! additional damage.,*단도 의 피해량이 !M! 증가합니다.,Accuracy/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0178,cards:NAME,Accuracy,정밀,Accuracy/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0179,cards:DESCRIPTION,Draw !M! cards. NL Discard 1 card.,카드를 !M! 장 뽑습니다. NL 카드를 1 장 버립니다.,Acrobatics/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0180,cards:NAME,Acrobatics,곡예,Acrobatics/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0181,cards:DESCRIPTION,"Whenever you enter Wrath, draw !M! cards.",진노할 때마다 카드를 !M! 장 뽑습니다.,Adaptation/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0182,cards:NAME,Rushdown,추월,Adaptation/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0183,cards:UPGRADE_DESCRIPTION,DEPRECATED,DEPRECATED,Adaptation/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0184,cards:DESCRIPTION,Gain [G]. NL Draw 2 cards. NL Exhaust., [G] 를 얻습니다. NL 카드를 2 장 뽑습니다. NL 소멸.,Adrenaline/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0185,cards:NAME,Adrenaline,아드레날린,Adrenaline/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0186,cards:UPGRADE_DESCRIPTION,Gain [G] [G]. NL Draw 2 cards. NL Exhaust., [G] [G] 를 얻습니다. NL 카드를 2 장 뽑습니다. NL 소멸.,Adrenaline/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0187,cards:DESCRIPTION,"Whenever you play a card, gain 1 Block.",카드를 사용할 때마다 방어도를 1 얻습니다.,After Image/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0188,cards:NAME,After Image,잔상,After Image/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0189,cards:UPGRADE_DESCRIPTION,"Innate. NL Whenever you play a card, gain 1 Block.",선천성. NL 카드를 사용할 때마다 방어도를 1 얻습니다.,After Image/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0190,cards:DESCRIPTION,Gain [B] for every !M! cards in your draw pile.,뽑을 카드 더미에 있는 카드 !M! 장마다 [B] 를 얻습니다.,Aggregate/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0191,cards:NAME,Aggregate,합하기,Aggregate/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0192,cards:DESCRIPTION,Deal !D! damage. NL Put all cost 0 cards from your discard pile into your hand.,피해를 !D! 줍니다. 버린 카드 더미에 있는 비용이 0인 카드를 모두 손으로 가져옵니다.,All For One/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0193,cards:NAME,All for One,하나를 위한 모두,All For One/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0194,cards:DESCRIPTION,Deal !D! damage to ALL enemies. NL Discard 1 card at random.,적 전체에게 피해를 !D! 줍니다. NL 무작위 카드를 1장 버립니다.,All Out Attack/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0195,cards:NAME,All-Out Attack,총공격,All Out Attack/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0196,cards:DESCRIPTION,Gain !M! Focus. NL Lose 1 Strength. NL Lose 1 Dexterity.,밀집을 !M! 얻습니다. NL 힘을 1 잃습니다. NL 민첩을 1 잃습니다.,Allocate/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0197,cards:NAME,Allocate,할당,Allocate/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0198,cards:DESCRIPTION,Shuffle a *Beta into your draw pile. NL Exhaust.,뽑을 카드 더미에 *베타 를 섞어 넣습니다. NL 소멸.,Alpha/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0199,cards:NAME,Alpha,알파,Alpha/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0200,cards:UPGRADE_DESCRIPTION,Innate. NL Shuffle a *Beta into your draw pile. NL Exhaust.,선천성. NL 뽑을 카드 더미에 *베타 를 섞어 넣습니다. NL 소멸.,Alpha/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0201,cards:DESCRIPTION,"This turn, your next Power card is played twice.",이번 턴에 사용하는 다음 파워 카드가 두 번 사용됩니다.,Amplify/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0202,cards:NAME,Amplify,증폭,Amplify/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0203,cards:UPGRADE_DESCRIPTION,"This turn, your next !M! Power cards are played twice.",이번 턴에 사용하는 다음 파워 카드 !M! 장이 두 번 사용됩니다.,Amplify/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0204,cards:DESCRIPTION,Deal !D! damage. NL Add a copy of this card into your discard pile.,피해를 !D! 줍니다. NL 이 카드를 한 장 복사해 버린 카드 더미에 섞어 넣습니다.,Anger/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0205,cards:NAME,Anger,분노,Anger/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0206,cards:DESCRIPTION,Upgrade ALL your cards for the rest of combat. NL Exhaust.,모든 카드를 이번 전투 동안 강화합니다. NL 소멸.,Apotheosis/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0207,cards:NAME,Apotheosis,신성,Apotheosis/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0208,cards:DESCRIPTION,Gain !B! Block. NL Upgrade a card in your hand for the rest of combat.,방어도를 !B! 얻습니다. NL 카드 1 장을 이번 전투 동안 강화합니다.,Armaments/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0209,cards:NAME,Armaments,전투장비,Armaments/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0210,cards:UPGRADE_DESCRIPTION,Gain !B! Block. NL Upgrade all cards in your hand for the rest of combat.,방어도를 !B! 얻습니다. NL 손에 있는 모든 카드를 이번 전투 동안 강화합니다.,Armaments/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0211,cards:DESCRIPTION,Unplayable. NL Ethereal. NL Cannot be removed from your deck.,사용불가. NL 휘발성. NL 덱에서 제거할 수 없습니다.,AscendersBane/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0212,cards:NAME,Ascender's Bane,등반자의 골칫거리,AscendersBane/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0213,cards:DESCRIPTION,"If you have no Block, gain !B! Block.",방어도가 없으면 방어도를 !B! 얻습니다.,Auto Shields/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0214,cards:NAME,Auto-Shields,자동 방패,Auto Shields/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0215,cards:DESCRIPTION,Deal !D! damage.,Deal !D! damage.,AwakenedStrike/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0216,cards:NAME,DEPRECATED Awakened Strike,DEPRECATED Awakened Strike,AwakenedStrike/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0217,cards:DESCRIPTION,Deal !D! damage. NL Evoke your next Orb.,피해를 !D! 줍니다. NL 가장 오른쪽의 구체를 발현합니다.,Axe Kick/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0218,cards:NAME,Axe Kick,엑스 킥,Axe Kick/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0219,cards:DESCRIPTION,Gain !B! Block. NL Draw 2 cards.,방어도를 !B! 얻습니다. NL 카드를 2 장 뽑습니다.,Backflip/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0220,cards:NAME,Backflip,공중제비,Backflip/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0221,cards:DESCRIPTION,Innate. NL Deal !D! damage. NL Exhaust.,선천성. NL 피해를 !D! 줍니다. NL 소멸.,Backstab/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0222,cards:NAME,Backstab,배신,Backstab/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0223,cards:DESCRIPTION,Deal !D! damage. Channel !M! Lightning.,피해를 !D! 줍니다. 전기를 !M! 번 영창합니다.,Ball Lightning/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0224,cards:NAME,Ball Lightning,번개 구체,Ball Lightning/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0225,cards:DESCRIPTION,Heal !M! HP. NL Exhaust.,체력을 !M! 회복합니다. NL 소멸.,Bandage Up/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0226,cards:NAME,Bandage Up,붕대 감기,Bandage Up/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0227,cards:DESCRIPTION,"Deal !D! damage. NL If the enemy has Poison, deal !D! damage again.",피해를 !D! 줍니다. NL 적이 중독된 상태면 다시 피해를 !D! 줍니다.,Bane/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0228,cards:NAME,Bane,파멸,Bane/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0229,cards:DESCRIPTION,Deal !D! damage for each Channeled Orb.,영창된 구체 하나당 피해를 !D! 줍니다.,Barrage/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0230,cards:NAME,Barrage,일제 사격,Barrage/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0231,cards:DESCRIPTION,Block is not removed at the start of your turn.,턴 시작 시 방어도가 사라지지 않습니다.,Barricade/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0232,cards:NAME,Barricade,바리케이드,Barricade/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0233,cards:DESCRIPTION,Deal !D! damage. NL Apply !M! Vulnerable.,피해를 !D! 줍니다. NL 취약을 !M! 부여합니다.,Bash/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0234,cards:NAME,Bash,강타,Bash/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0235,cards:DESCRIPTION,Draw !M! cards. NL You cannot draw additional cards this turn.,카드를 !M! 장 뽑습니다. NL 이번 턴 동안 더 이상 카드를 뽑을 수 없습니다.,Battle Trance/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0236,cards:NAME,Battle Trance,전투 최면,Battle Trance/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0237,cards:DESCRIPTION,"At the start of each turn, add a *Smite into your hand.",매 턴 시작 시 *엄벌 을 1 장 얻습니다.,BattleHymn/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0238,cards:NAME,Battle Hymn,전투 찬가,BattleHymn/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0239,cards:UPGRADE_DESCRIPTION,"Innate. NL At the start of each turn, add a *Smite into your hand.",선천성. NL 매 턴 시작 시 *엄벌 을 1 장 얻습니다.,BattleHymn/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0240,cards:DESCRIPTION,Deal !D! damage. NL Apply !M! Vulnerable.,피해를 !D! 줍니다. NL 취약을 !M! 부여합니다.,Beam Cell/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0241,cards:NAME,Beam Cell,레이저 포인터,Beam Cell/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0242,cards:DESCRIPTION,Gain !M! Strength.,힘을 !M! 얻습니다.,BecomeAlmighty/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0243,cards:NAME,Become Almighty,전능,BecomeAlmighty/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0244,cards:DESCRIPTION,"Gain !M! Vulnerable. NL At the start of your turn, gain [R].",취약을 !M! 받습니다. 내 턴 시작 시마다 [R] 을 얻습니다.,Berserk/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0245,cards:NAME,Berserk,광폭화,Berserk/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0246,cards:DESCRIPTION,Shuffle an *Omega into your draw pile. NL Exhaust.,뽑을 카드에 *오메가 를 섞어 넣습니다. NL 소멸.,Beta/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0247,cards:NAME,Beta,베타,Beta/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0248,cards:DESCRIPTION,"Gain !M! Focus. NL At the start of your turn, lose 1 Focus.",밀집을 !M! 얻습니다. NL 내 턴 시작 시 밀집을 1 잃습니다.,Biased Cognition/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0249,cards:NAME,Biased Cognition,인지 편향,Biased Cognition/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0250,cards:DESCRIPTION,Retain. NL Draw 1 card. NL Exhaust.,Draw 1 card. NL Retains. NL Exhaust.,BigBrain/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0251,cards:NAME,DEPRECATED Big Brain,DEPRECATED Big Brain,BigBrain/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0252,cards:UPGRADE_DESCRIPTION,Retain. NL Draw 1 card.,Draw 1 card. NL Retains.,BigBrain/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0253,cards:DESCRIPTION,Deal !D! damage. NL Heal !M! HP.,피해를 !D! 줍니다. NL 체력을 !M! 회복합니다.,Bite/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0254,cards:NAME,Bite,흡혈,Bite/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0255,cards:DESCRIPTION,Add !M! *Shivs into your hand.,*단도 를 !M! 장 얻습니다.,Blade Dance/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0256,cards:NAME,Blade Dance,검무,Blade Dance/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0257,cards:DESCRIPTION,Enter Divinity. NL Die next turn. NL Exhaust.,강림합니다. NL 다음 턴에 죽습니다. NL 소멸.,Blasphemy/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0258,cards:NAME,Blasphemy,신성 모독,Blasphemy/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0259,cards:UPGRADE_DESCRIPTION,Retain. NL Enter Divinity. NL Die next turn. NL Exhaust.,보존. NL 강림합니다. NL 다음 턴에 죽습니다. NL 소멸.,Blasphemy/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0260,cards:DESCRIPTION,deprecated,적 전체에게 피해를 !D! 줍니다. NL 영창된 구체 하나당 [B] 를 얻습니다. NL 소멸,Blaster/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0261,cards:NAME,Blaster,블래스터-Deprecated,Blaster/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0262,cards:DESCRIPTION,Shuffle !M! *Miracles into your draw pile. NL Exhaust.,Shuffle !M! *Miracles into your draw pile. NL Exhaust.,Blessed/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0263,cards:NAME,DEPRECATED Blessed,DEPRECATED Blessed,Blessed/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0264,cards:UPGRADE_DESCRIPTION,Shuffle !M! *Miracles+ into your draw pile. NL Exhaust.,Shuffle !M! Upgraded *Miracles into your draw pile. NL Exhaust.,Blessed/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0265,cards:DESCRIPTION,Apply !M! Weak.,약화를 !M! 부여합니다.,Blind/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0266,cards:NAME,Blind,실명,Blind/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0267,cards:UPGRADE_DESCRIPTION,Apply !M! Weak to ALL enemies.,적 전체에게 약화를 !M! 부여합니다.,Blind/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0268,cards:DESCRIPTION,Deal damage equal to !M! times the number of Frost Channeled this combat to ALL enemies.,이번 전투에서 영창된 냉기의 !M! 배만큼 적 전체에게 피해를 줍니다.,Blizzard/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0269,cards:EXTENDED_DESCRIPTION, NL (Deals !D! damage.), NL (피해를 !D! 줍니다.),Blizzard/EXTENDED_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0270,cards:NAME,Blizzard,눈보라,Blizzard/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0271,cards:DESCRIPTION,Costs 1 less [R] NL for each time you lose HP this combat. NL Deal !D! damage.,이번 전투에서 체력을 잃을 때마다 이 카드의 비용이 [R] 감소합니다. NL 피해를 !D! 줍니다.,Blood for Blood/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0272,cards:NAME,Blood for Blood,피에는 피,Blood for Blood/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0273,cards:DESCRIPTION,Lose 3 HP. NL Gain [R] [R].,체력을 3 잃습니다. NL [R] [R] 을 얻습니다.,Bloodletting/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0274,cards:NAME,Bloodletting,사혈,Bloodletting/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0275,cards:UPGRADE_DESCRIPTION,Lose 3 HP. NL Gain [R] [R] [R].,체력을 3 잃습니다. NL [R] [R] [R] 을 얻습니다.,Bloodletting/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0276,cards:DESCRIPTION,Deal !D! damage.,피해를 !D! 줍니다.,Bludgeon/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0277,cards:NAME,Bludgeon,몽둥이질,Bludgeon/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0278,cards:DESCRIPTION,Gain !B! Block. NL Block is not removed at the start of your next turn.,방어도를 !B! 얻습니다. NL 한 턴간 다음 턴 시작 시에도 방어도가 사라지지 않습니다.,Blur/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0279,cards:NAME,Blur,흐릿함,Blur/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0280,cards:DESCRIPTION,Deal damage equal to your Block.,현재 방어도만큼 피해를 줍니다.,Body Slam/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0281,cards:NAME,Body Slam,몸통 박치기,Body Slam/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0282,cards:UPGRADE_DESCRIPTION, NL (Deals !D! damage.), NL (피해를 !D! 줍니다.),Body Slam/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0283,cards:DESCRIPTION,Innate. NL Gain !B! Block. NL Exhaust.,방어도를 !B! 얻습니다. NL 선천성. NL 소멸.,BootSequence/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0284,cards:NAME,Boot Sequence,부팅 과정,BootSequence/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0285,cards:DESCRIPTION,Apply 3 Poison to a random enemy !M! times.,무작위 적들에게 중독을 3 만큼 !M! 번 부여합니다.,Bouncing Flask/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0286,cards:NAME,Bouncing Flask,탄성 플라스크,Bouncing Flask/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0287,cards:DESCRIPTION,Deal !D! damage for each enemy in combat.,전투 중인 적 하나당 피해를 !D! 줍니다.,BowlingBash/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0288,cards:NAME,Bowling Bash,충돌 강타,BowlingBash/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0289,cards:DESCRIPTION,Deal !D! damage. NL Deals additional damage equal to Mantra gained this combat.,피해를 !D! 줍니다. NL 이번 전투에서 얻었던 만트라만큼 추가 피해를 줍니다.,Brilliance/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0290,cards:NAME,Brilliance,광휘,Brilliance/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0291,cards:DESCRIPTION,DEPRECATED,"Exhaust. NL At the start of your turn, draw 1 card. NL Retains.",BrillianceAura/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0292,cards:NAME,DEPRECATED Brilliance Aura,DEPRECATED Brilliance Aura,BrillianceAura/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0293,cards:DESCRIPTION,"At the start of your turn, lose 1 HP and draw 1 card.",내 턴 시작 시 체력을 1 잃고 카드를 1 장 뽑습니다.,Brutality/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0294,cards:NAME,Brutality,잔혹성,Brutality/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0295,cards:UPGRADE_DESCRIPTION,"Innate. NL At the start of your turn, lose 1 HP and draw 1 card.",선천성. NL 내 턴 시작 시 체력을 1 잃고 카드를 1장 뽑습니다.,Brutality/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0296,cards:DESCRIPTION,Prevent the next time you would lose HP.,체력을 잃는 것을 1 번 막아줍니다.,Buffer/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0297,cards:NAME,Buffer,버퍼,Buffer/NAME,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0298,cards:UPGRADE_DESCRIPTION,Prevent the next !M! times you would lose HP.,체력을 잃는 것을 !M! 번 막아줍니다.,Buffer/UPGRADE_DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0299,cards:DESCRIPTION,You cannot draw additional cards this turn. Reduce the cost of all cards in your hand to 0 this turn.,이번 턴 동안 더 이상 카드를 뽑을 수 없습니다. 이번 턴 동안 손에 있는 모든 카드의 비용을 0 으로 바꿉니다.,Bullet Time/DESCRIPTION,,,game=slaythespire; file=cards_merged.json; index=0
+slaythespire_0300,cards:NAME,Bullet Time,불릿 타임,Bullet Time/NAME,,,game=slaythespire; file=cards_merged.json; index=0
