@@ -1,16 +1,16 @@
-# LLM Translation Failure Lab
+# LLM Translation QA Workspace
 
-LLM Translation Failure Lab은 게임/콘텐츠 번역 데이터에서 **LLM 번역 결과와 사람 번역을 나란히 비교하고, 오류 유형을 관찰/라벨링하기 위한 연구용 Streamlit 웹앱**입니다.
+LLM Translation QA Workspace는 게임/콘텐츠 번역 데이터에서 **LLM 번역 결과와 사람 번역을 나란히 비교하고, 오류 유형을 관찰/라벨링하기 위한 연구용 Streamlit 웹앱**입니다.
 
-CSV로 정리된 원문과 사람 번역을 업로드한 뒤 OpenAI 모델로 번역 run을 생성하고, 각 문장 단위로 오류 유형, 메모, 리뷰어를 기록할 수 있습니다. Supabase(Postgres)를 사용해 데이터셋, 번역 run, 프롬프트 버전, 라벨링 결과를 분리 저장하므로 여러 사람이 같은 데이터셋을 기준으로 번역 실패 사례를 함께 살펴볼 수 있습니다.
+CSV로 정리된 원문과 사람 번역을 업로드한 뒤 OpenAI 모델로 번역 run을 생성하고, 각 문장 단위로 오류 유형, 메모, 리뷰어를 기록할 수 있습니다. Supabase(Postgres)를 사용해 데이터셋, 번역 run, 프롬프트 버전, 라벨링 결과를 분리 저장하므로 여러 사람이 같은 데이터셋을 기준으로 번역 품질 이슈를 함께 살펴볼 수 있습니다.
 
-이 프로젝트는 논문/스터디/프로토타입 단계에서 번역 실패 양상을 빠르게 모으고, 프롬프트나 모델 설정을 바꿔가며 결과를 비교하기 위해 만든 MVP 성격의 도구입니다.
+이 프로젝트는 논문/스터디/프로토타입 단계에서 번역 품질 이슈를 빠르게 모으고, 프롬프트나 모델 설정을 바꿔가며 결과를 비교하기 위해 만든 MVP 성격의 도구입니다.
 
 ## 데모
 
 배포 링크:
 
-[LLM Translation Failure Lab 바로가기](https://llmtranslation-ggjybjubxywzhbtvkmywct.streamlit.app/)
+[LLM Translation QA Workspace 바로가기](https://llmtranslation-ggjybjubxywzhbtvkmywct.streamlit.app/)
 
 ### 1. CSV 업로드와 데이터셋 생성
 

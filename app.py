@@ -33,7 +33,7 @@ st.set_page_config(page_title=APP_TITLE, layout="wide")
 
 def main():
     st.title(APP_TITLE)
-    st.caption("LLM 번역 실패를 관찰하고 MQM 기반으로 함께 라벨링하기 위한 연구용 MVP")
+    st.caption("LLM 번역 결과를 비교하고 MQM 기반으로 함께 리뷰/라벨링하기 위한 연구용 MVP")
 
     # Supabase 클라이언트는 @st.cache_resource로 캐시되므로 매 rerun마다 새로 만들어지지 않음.
     supabase = get_supabase_client()

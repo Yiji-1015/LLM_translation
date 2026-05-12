@@ -17,7 +17,7 @@ import pandas as pd
 
 # ---------- 상수 ----------
 
-APP_TITLE = "LLM 번역 실패 관찰 및 공동 라벨링 툴"
+APP_TITLE = "LLM Translation QA Workspace"
 
 # 업로드 안전장치. CSV 한 번에 300행, 한 번 번역 run에 50행이 한계.
 # 너무 큰 파일이 들어오면 Supabase 쪽도 부담이고, OpenAI 호출 비용도 폭증함.
