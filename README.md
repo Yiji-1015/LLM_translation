@@ -1,87 +1,135 @@
 # LLM Translation Failure Lab
 
-Python + Streamlit + Supabase 기반의 LLM 번역 실패 관찰 및 공동 라벨링 MVP입니다. 게임/콘텐츠 번역 CSV를 업로드하고, LLM 번역 run과 사람 라벨링 annotation을 분리 저장합니다.
+LLM Translation Failure Lab은 게임/콘텐츠 번역 데이터에서 **LLM 번역 결과와 사람 번역을 나란히 비교하고, 오류 유형을 관찰/라벨링하기 위한 연구용 Streamlit 웹앱**입니다.
 
-## Features
+CSV로 정리된 원문과 사람 번역을 업로드한 뒤 OpenAI 모델로 번역 run을 생성하고, 각 문장 단위로 오류 유형, 메모, 리뷰어를 기록할 수 있습니다. Supabase(Postgres)를 사용해 데이터셋, 번역 run, 프롬프트 버전, 라벨링 결과를 분리 저장하므로 여러 사람이 같은 데이터셋을 기준으로 번역 실패 사례를 함께 살펴볼 수 있습니다.
 
-- CSV 업로드만 지원
-- dataset, row, prompt version, translation run, annotation 분리 저장
-- OpenAI API key는 사이드바 password input으로만 입력하며 `st.session_state`에만 보관
-- LLM 번역 run 생성, 최대 50행
-- 카드뷰/테이블뷰, tag 필터, 검색
-- MQM 스타일 error type, memo, reviewer 저장
-- 결과 CSV 다운로드 및 재업로드로 이어서 작업 가능
-- UTF-8-SIG CSV 다운로드
+이 프로젝트는 논문/스터디/프로토타입 단계에서 번역 실패 양상을 빠르게 모으고, 프롬프트나 모델 설정을 바꿔가며 결과를 비교하기 위해 만든 MVP 성격의 도구입니다.
 
-## Local Run
+## 데모
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+배포 링크:
+
+```text
+Streamlit App: 추가 예정
 ```
 
-## Streamlit Secrets
+### 1. CSV 업로드와 데이터셋 생성
 
-로컬에서는 `.streamlit/secrets.toml`을 만들고, Streamlit Cloud에서는 App settings의 Secrets에 같은 값을 넣습니다.
+CSV 컬럼 예시를 확인하고, 게임/콘텐츠 번역 데이터를 데이터셋 단위로 업로드합니다. 업로드된 데이터는 앱 안에서 바로 미리보기할 수 있습니다.
 
-```toml
-SUPABASE_URL = "https://your-project.supabase.co"
-SUPABASE_KEY = "your-supabase-anon-or-service-role-key"
+![CSV 업로드 화면](docs/images/01_upload_dataset.png)
+
+### 2. 번역 비교와 공동 라벨링
+
+각 row에서 원문, LLM 번역, 사람 번역을 나란히 보고 오류 유형, 메모, 리뷰어를 기록합니다. 라벨링 결과는 저장 즉시 Supabase에 반영됩니다.
+
+![번역 비교 및 라벨링 화면](docs/images/02_translation_labeling.png)
+
+### 3. 라벨 기준과 오류 리뷰 모아보기
+
+오류 유형별 기준을 확인하고, 라벨링된 사례를 모아 검색/필터링할 수 있습니다. 여러 번역 run에서 나온 오류를 비교하며 반복되는 실패 양상을 살펴보는 데 사용합니다.
+
+![라벨 기준 및 오류 리뷰 화면](docs/images/03_label_review.png)
+
+## 기획 의도
+
+게임 번역에서는 단순히 문장이 맞는지뿐 아니라 용어 일관성, 캐릭터 말투, UI 제약, 태그/플레이스홀더 보존, 문화권 표현 등 여러 요소가 함께 작동합니다. LLM 번역 결과를 평가할 때도 이런 오류가 어디에서 발생하는지, 어떤 프롬프트나 모델 설정에서 반복되는지 관찰할 수 있는 작은 실험 환경이 필요했습니다.
+
+이 앱은 완성형 평가 플랫폼이라기보다, 번역 예시를 올리고 여러 번의 번역 시도를 남기며, 사람이 직접 오류를 읽고 라벨링하면서 실패 패턴을 모으는 데 초점을 둡니다.
+
+## 주요 기능
+
+- CSV 기반 데이터셋 업로드
+- OpenAI 모델을 사용한 LLM 번역 생성
+- 프롬프트 버전 관리
+- 번역 run 단위 결과 보존 및 삭제
+- LLM 번역, 사람 번역, 원문을 나란히 비교
+- 오류 유형, 메모, 리뷰어 라벨링
+- 라벨링 결과 즉시 Supabase DB 저장
+- 카드뷰 / 테이블뷰 전환
+- tag 필터와 검색
+- 라벨 기준 설명 및 오류 리뷰 모아보기
+- 데이터셋 및 결과 CSV 다운로드
+- 결과 CSV를 다시 업로드해 이어서 작업
+
+## 기술 스택
+
+- Python
+- Streamlit
+- Supabase(Postgres)
+- pandas
+- OpenAI Python SDK
+
+## 프로젝트 구조
+
+```text
+.
+├── app.py                  # Streamlit 진입점
+├── data.py                 # CSV 정규화, 샘플 데이터, 상수
+├── db.py                   # Supabase CRUD
+├── translate.py            # OpenAI 호출 및 번역 실행
+├── views.py                # Streamlit UI
+├── requirements.txt
+├── examples/               # 예시 CSV
+└── LLM_Translation-pseudo_lab/
 ```
 
-`OPENAI_API_KEY`는 secrets에 넣지 않아도 됩니다. 앱 사이드바에서 팀원이 직접 입력하며, DB/CSV/secrets/log에 저장하지 않습니다.
+## 사용 흐름
 
-## Input CSV
+```text
+입력 CSV 업로드
+→ 데이터셋 생성
+→ 프롬프트 버전 선택
+→ LLM 번역 run 생성
+→ 오류 유형 / 메모 / 리뷰어 라벨링
+→ 결과 CSV 다운로드
+→ 필요하면 결과 CSV를 다시 업로드해 이어서 작업
+```
+
+## 입력 CSV 형식
+
+표준 입력은 CSV만 지원합니다. 게임 클라이언트에서 추출한 JSON 등은 사전에 CSV로 전처리한 뒤 업로드하는 것을 전제로 합니다.
 
 필수 컬럼:
 
-- `source`
-- `human_translation`
+```text
+source
+human_translation
+```
 
 선택 컬럼:
 
-- `id`
-- `tag`
-- `context`
-- `speaker`
-- `listener`
-- `notes`
-
-결과 CSV를 다시 업로드할 때 아래 컬럼이 있으면 값을 보존합니다.
-
-- `llm_translation`
-- `error_type`
-- `memo`
-- `reviewer`
-
-기본값:
-
-- `id`가 없으면 `row_0001` 형식으로 생성
-- `tag`가 없으면 `Uncategorized`
-- 나머지 선택 컬럼은 빈 문자열
-
-업로드는 최대 300행입니다.
-
-## Example JSON Preprocess
-
-앱은 JSON 업로드를 지원하지 않습니다. 예를 들어 `destiny2_translation.json` 같은 newline-delimited JSON은 CSV로 전처리한 뒤 업로드합니다.
-
-```python
-import pandas as pd
-
-df = pd.read_json("destiny2_translation.json", lines=True)
-out = pd.DataFrame({
-    "id": df["id"].astype(str),
-    "tag": df.get("type", "Uncategorized"),
-    "source": df["en"],
-    "human_translation": df["ko"],
-    "context": df.get("source", ""),
-    "notes": df.get("domain", ""),
-})
-out.to_csv("destiny2_translation.csv", index=False, encoding="utf-8-sig")
+```text
+id
+tag
+context
+speaker
+listener
+notes
 ```
 
-## Output CSV Columns
+기본 처리:
+
+- `id`가 없으면 `row_0001` 형식으로 자동 생성
+- `tag`가 없으면 `Uncategorized`
+- 나머지 선택 컬럼이 없으면 빈 문자열
+- 업로드는 최대 300행
+- `context`는 프롬프트에 최대 1000자까지만 사용
+- `source + human_translation` 기반 hash를 만들어 중복 확인에 활용
+
+이미 아래 컬럼이 포함된 CSV를 다시 업로드하면 기존 값을 보존해 이어서 작업할 수 있습니다.
+
+```text
+llm_translation
+error_type
+memo
+reviewer
+```
+
+## 출력 CSV
+
+다운로드 CSV는 UTF-8-SIG 인코딩으로 생성됩니다.
 
 ```text
 id
@@ -100,84 +148,51 @@ memo
 reviewer
 ```
 
-## Supabase SQL Schema
+## 오류 라벨
 
-Supabase SQL Editor에서 아래 SQL을 실행해 초기 테이블을 만듭니다.
+현재 구현에서 제공하는 기본 오류 유형은 다음과 같습니다. 라벨 체계는 연구 목적이나 데이터셋 성격에 따라 달라질 수 있으며, 향후 실험 방향에 맞춰 수정될 수 있습니다.
 
-```sql
-create table if not exists datasets (
-  dataset_id uuid primary key,
-  dataset_name text not null,
-  description text default '',
-  uploaded_at timestamptz not null default now()
-);
+- `No Error`
+- `Terminology`
+- `Accuracy`
+- `Style`
+- `Persona/Pragmatics`
+- `Locale`
+- `Design/Markup`
+- `Linguistic`
+- `Other`
 
-create table if not exists rows (
-  dataset_id uuid not null references datasets(dataset_id) on delete cascade,
-  row_id text not null,
-  source text not null,
-  human_translation text not null,
-  tag text not null default 'Uncategorized',
-  context text default '',
-  speaker text default '',
-  listener text default '',
-  notes text default '',
-  hash text not null,
-  primary key (dataset_id, row_id)
-);
+라벨 기준 탭에서는 각 오류 유형의 의미를 확인하고, 라벨링된 오류 리뷰를 모아서 볼 수 있습니다.
 
-create index if not exists idx_rows_dataset_id on rows(dataset_id);
-create index if not exists idx_rows_hash on rows(hash);
+## 기본 프롬프트
 
-create table if not exists prompt_versions (
-  prompt_version_id uuid primary key,
-  name text not null,
-  prompt_text text not null,
-  is_default boolean not null default false,
-  created_at timestamptz not null default now()
-);
+```text
+You are a professional English-to-Korean game localization translator.
+Translate the source text into natural Korean.
+Preserve placeholders, tags, variables, numbers, and line breaks exactly.
+Use the given tag and context only as guidance.
+Do not add explanations.
 
-create table if not exists translation_runs (
-  run_id uuid primary key,
-  dataset_id uuid not null references datasets(dataset_id) on delete cascade,
-  prompt_version_id uuid not null references prompt_versions(prompt_version_id),
-  model text not null,
-  created_at timestamptz not null default now()
-);
+Tag: {tag}
+Context: {context}
+Source: {source}
 
-create index if not exists idx_translation_runs_dataset_id on translation_runs(dataset_id);
-
-create table if not exists translations (
-  translation_id uuid primary key,
-  row_id text not null,
-  run_id uuid not null references translation_runs(run_id) on delete cascade,
-  llm_translation text not null,
-  unique (row_id, run_id)
-);
-
-create index if not exists idx_translations_run_id on translations(run_id);
-
-create table if not exists annotations (
-  annotation_id uuid primary key,
-  row_id text not null,
-  run_id uuid not null references translation_runs(run_id) on delete cascade,
-  error_type text not null default 'No Error',
-  memo text default '',
-  reviewer text default '',
-  updated_at timestamptz not null default now(),
-  unique (row_id, run_id)
-);
-
-create index if not exists idx_annotations_run_id on annotations(run_id);
+Return only the Korean translation.
 ```
 
-## Deployment Notes
+프롬프트를 수정하면 기존 프롬프트를 덮어쓰지 않고 새 prompt version으로 저장합니다. 따라서 이전 run 결과와 새 run 결과를 분리해서 비교할 수 있습니다.
 
-1. GitHub에 `app.py`, `requirements.txt`, `README.md`를 push합니다.
-2. Streamlit Cloud에서 새 app을 만들고 repo를 연결합니다.
-3. Main file path를 `app.py`로 설정합니다.
-4. Secrets에 `SUPABASE_URL`, `SUPABASE_KEY`를 입력합니다.
-5. Supabase SQL Editor에서 schema를 먼저 생성합니다.
-6. 앱에서 CSV를 업로드하고 Work 탭에서 run/labeling을 진행합니다.
+## 데이터 모델
 
-로그인은 만들지 않았습니다. 모든 사용자는 신뢰된 팀원이라고 가정합니다.
+원본 row 데이터와 LLM 번역 결과를 분리해서 저장합니다. 덕분에 같은 데이터셋에 대해 여러 프롬프트/모델 조합을 실행하고, run별 결과를 비교할 수 있습니다.
+
+- `datasets`: 업로드된 CSV 단위
+- `rows`: 원문, 사람 번역, context, tag 등 원본 row
+- `prompt_versions`: 프롬프트 버전
+- `translation_runs`: 특정 프롬프트와 모델로 실행한 번역 run
+- `translations`: run별 LLM 번역 결과
+- `annotations`: run별 오류 라벨, 메모, 리뷰어
+
+## 참고
+
+이 저장소에는 앱 코드 외에도 같은 주제의 실험/스터디 산출물이 일부 포함되어 있습니다. Streamlit 앱 실행에 직접 관련된 핵심 파일은 `app.py`, `data.py`, `db.py`, `translate.py`, `views.py`, `requirements.txt`입니다.
